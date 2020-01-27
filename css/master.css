@@ -1,0 +1,140 @@
+/*
+    Author: Julien Savoie
+*/
+/*
+
+#Variables
+----------------------------
+*/
+/* ********************** Couleurs ********************** */
+/*
+----------------------------
+
+#Colors
+----------------------------
+*/
+body {
+  background: -webkit-gradient(linear, right top, left top, from(#222222), to(black));
+  background: linear-gradient(-90deg, #222222 0%, black 100%);
+  background: -webkit-gradient(linear, right top, left top, from(#4d4d4d), to(#0f0f0f));
+  background: linear-gradient(-90deg, #4d4d4d 0%, #0f0f0f 100%);
+}
+
+/*
+----------------------------
+
+#Menu
+----------------------------
+*/
+nav {
+  font-family: 'Bebas Neue', cursive;
+  color: #FFFFFF;
+  font-size: 1.7em;
+  background: -webkit-gradient(linear, right top, left top, from(#222222), to(black));
+  background: linear-gradient(-90deg, #222222 0%, black 100%);
+}
+
+nav .material-icons.md-70 {
+  font-size: 70px;
+}
+
+nav label {
+  position: absolute;
+}
+
+nav label i {
+  -webkit-transition: -webkit-transform 0.2s;
+  transition: -webkit-transform 0.2s;
+  transition: transform 0.2s;
+  transition: transform 0.2s, -webkit-transform 0.2s;
+}
+
+nav input {
+  display: none;
+}
+
+nav input:checked ~ .title_bar {
+  margin-top: 0px;
+}
+
+nav .menu_container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+nav .menu_container h1 {
+  margin: 0;
+  line-height: 70px;
+}
+
+nav .title_bar {
+  position: absolute;
+  width: 100%;
+  background: -webkit-gradient(linear, right top, left top, from(#222222), to(black));
+  background: linear-gradient(-90deg, #222222 0%, black 100%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: -380px;
+  z-index: -123;
+  -webkit-transition: margin-top 0.5s;
+  transition: margin-top 0.5s;
+}
+
+nav .title_bar .menuOption {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+}
+
+nav .title_bar .menuOption:hover {
+  background-color: #232323;
+  border-left: 4px solid #F15A24;
+  border-right: 4px solid #F15A24;
+}
+
+nav .title_bar .menuOption6 {
+  color: #C68E81;
+  border-top: 1px solid #C68E81;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  font-size: 0.8em;
+  width: 70%;
+}
+
+nav .title_bar .menuOption6:hover {
+  background-color: initial;
+  border-left: none;
+  border-right: none;
+}
+
+/*
+----------------------------
+
+#Grid
+----------------------------
+*/
+/*
+----------------------------
+
+*/
+/*# sourceMappingURL=master.css.map */

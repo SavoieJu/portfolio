@@ -4,9 +4,37 @@
   <title>Julien Savoie - Dévellopeur Web</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="/css/style.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.6.0/modern-normalize.css">
+  <link rel="stylesheet" href="css/master.css">
+  <script src="https://kit.fontawesome.com/81b2a321c9.js" crossorigin="anonymous"></script>
+
 </head>
 <body>
-  
+  <!-- Navigation -->
+  <nav>
+    <label for="menu_opener">
+      <i id="menuListener" class="material-icons md-70">expand_more</i>
+      <!-- <i class="material-icons">expand_more</i>  -->
+    </label>
+    <input type="checkbox" id="menu_opener">
+    <div class="menu_container">
+        <h1>SAVOIE.DEV</h1>
+    </div>
+    <div class="title_bar">
+      <div class="menuOption1 menuOption">Tous</div>
+      <div class="menuOption2 menuOption">Web</div>
+      <div class="menuOption3 menuOption">Jeux</div>
+      <div class="menuOption4 menuOption">Design</div>
+      <div class="menuOption5 menuOption">Travail</div>
+      <div class="menuOption6 menuOption">
+          <i class="fab fa-github"></i>
+          <i class="fab fa-linkedin-in"></i>
+          <i class="fas fa-envelope"></i>
+      </div>
+    </div>
+  </nav>
+  <script src="js/menu.js"></script>
 </body>
 </html>

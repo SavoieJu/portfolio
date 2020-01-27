@@ -1,0 +1,80 @@
+nav {
+    font-family: 'Bebas Neue', cursive;
+    color: $white;
+    font-size: 1.7em;
+    background: $gradientSecondaire;
+
+    .material-icons.md-70 { 
+        font-size: 70px;
+    }
+
+    label {
+        position: absolute;
+        // font-size: 3em;
+        i {
+            transition: transform 0.2s;
+        }
+    }
+
+    input {
+        display: none;
+        // position: absolute;
+        &:checked ~ .title_bar {
+            margin-top: 0px;
+        }
+    }
+
+    .menu_container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+        h1 {
+            margin: 0;
+            line-height: 70px;
+        }
+
+    }
+
+    .title_bar {
+        position: absolute;
+        width: 100%;
+        background: $gradientSecondaire;
+        display: flex;
+        flex-direction: column;
+        margin-top: -380px;
+        z-index: -123;
+        transition: margin-top 0.5s;
+
+        .menuOption {
+            align-self: center;
+            width: 100%;
+            text-align: center;
+            padding: 10px 0;
+
+            &:hover {
+                background-color: $noirHighlight;
+                border-left: 4px solid $orangePrincipale;
+                border-right: 4px solid $orangePrincipale;
+            }
+
+        }
+
+        .menuOption6 {
+            color: $orangeSecondaire;
+            border-top: 1px solid $orangeSecondaire;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            font-size: 0.8em;
+            width: 70%;
+
+            &:hover {
+                background-color: initial;
+                border-left: none;
+                border-right: none;
+            }
+        }
+
+    }
+}
