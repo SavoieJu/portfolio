@@ -1,3 +1,3 @@
-# My portfolio
+# Portfolio
 
-My portfolio to showcase what I have done in the past couple of years.
+2 version de mon portfolio, en développement.
