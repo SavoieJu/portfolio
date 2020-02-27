@@ -65,6 +65,7 @@
 @media screen and (max-width: 800px) {
     .projets {
         flex-direction: column;
+        padding: 0 3vw;
 
         .projets_liste {
             width: 100%;
@@ -89,6 +90,20 @@
             }
         }
 
+        img {
+            display: none;
+        }
+    }
+}
+
+@media screen and (max-width: 1024px) {
+
+    .projets {
+        justify-content: center;
+    }
+
+    .projets_image {
+        display: none;
         img {
             display: none;
         }

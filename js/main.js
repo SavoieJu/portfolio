@@ -1,8 +1,38 @@
+if (this.scrollY > 100) {
+    let bigTextAccueil = document.querySelector("section.accueil > h2");
+    if (bigTextAccueil != undefined) {
+        bigTextAccueil.style.transform = "translateX("+ this.scrollY*3 +"px)";
+    }    
+}
+
 window.addEventListener("load", () => {
     menuOpacity();
     textTransition();
     accordeon();
+
+    if (this.scrollY > 100) {
+        let bigTextAccueil = document.querySelector("section.accueil > h2");
+        if (bigTextAccueil != undefined) {
+            bigTextAccueil.style.transform = "translateX("+ this.scrollY*3 +"px)";
+        }  
+    }
+    
 });
+
+function maxHeightAccordeon() {
+    let maxHeight = "10vh";
+    if (window.innerWidth <= 1024) {
+        maxHeight = "20vh";
+    } else if (window.innerWidth <= 800) {
+        maxHeight = "10vh";
+    } else {
+        maxHeight = "10vh";
+    }
+
+    console.log(maxHeight);
+    
+    return maxHeight;
+}
 
 function menuOpacity() {
     window.addEventListener("scroll", function(e) {
@@ -47,10 +77,12 @@ function accordeon() {
 
 function checkedAccordeon() {
     let projetAccordeon = document.querySelectorAll(".projets_liste_projet_titre");
+    console.log(window.innerWidth);
+    
     
     projetAccordeon.forEach(el => {
         if (el.children[2].checked == false) {
-            el.parentElement.style.maxHeight = "10vh";
+            el.parentElement.style.maxHeight = maxHeightAccordeon();
             el.children[1].children[0].style.transform = "rotate(0deg)";
         } else {
             el.parentElement.style.maxHeight = "40vh";

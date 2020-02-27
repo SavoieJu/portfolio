@@ -10,15 +10,20 @@
 ----------------------------
 */
 @import 'variables/_couleurs.scss';
-/*
-/*
 
+/*
+# Normalize
+----------------------------
+*/
+@import '_normalize.scss';
+
+/*
 # Mixins
 ----------------------------
 */
-/* @import 'variables/_mixin.scss'; */
-/*
+// @import 'variables/_mixin.scss';
 
+/*
 # Layout
 ----------------------------
 */
@@ -28,14 +33,11 @@
 @import 'layout/main/_accueil.scss';
 @import 'layout/main/_contact.scss';
 @import 'layout/main/_projets.scss';
-/*
 
+/*
 # Styling
 ----------------------------
 */
 @import 'styling/_fonts.scss';
 @import 'styling/_couleurs.scss';
 @import 'styling/_elements.scss';
-/*
-
-*/
