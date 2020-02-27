@@ -1,0 +1,70 @@
+/*
+
+    Author: Julien Savoie
+    Menu
+
+*/
+
+header {
+    user-select: none;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    height: 140px;
+    margin: 0 auto;
+    z-index: 100000;
+    transition: opacity 0.4s ease;
+
+    h1 {
+        margin-left: 40px;
+        padding: 5px 15px;
+        user-select: none;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        flex-basis: 40%;
+        height: 140px;
+        padding-right: 40px;
+
+        a {
+            text-align: center;
+            height: 54px;
+            align-self: center;
+            padding: 5px 15px;
+
+            &:hover {
+                background-color: $noirPrincipale;
+                color: $blancPrincipale;
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+    header {
+        position: sticky;
+        flex-direction: column;
+        justify-content: center;
+
+        h1 {
+            text-align: center;
+            margin: 10px 0;
+            padding: 0;
+            align-self: center;
+        }
+
+        nav {
+            padding: 0 20px;
+            
+            a {
+                height: 32px;
+            }
+        }
+    }
+}

@@ -1,0 +1,96 @@
+/*
+
+    Author: Julien Savoie
+    Projets
+
+*/
+
+
+.projets {
+    max-width: 100%;
+    display: flex;
+    margin-top: 100vh;
+    padding: 0 10vw;
+
+    .projets_liste {
+        width: 50vw;
+
+        .projets_liste_projet {
+            margin: 0 5vw;
+            display: flex;
+            flex-direction: column;
+            border-bottom: 1px solid $noirPrincipale;
+            max-height: 10vh;
+            overflow: hidden;
+            cursor: pointer;
+            transition: max-height 0.4s ease;
+
+            .projets_liste_projet_titre {
+                display: flex;
+                justify-content: space-between;
+        
+                span {
+                    font-size: 2.5em;
+                    align-self: center;
+                    cursor: pointer;
+    
+                    svg {
+                        transition: transform 0.2s;
+                    }
+                }
+
+                input {
+                    display: none;
+                }
+            }
+
+            .projets_liste_projet_info {
+                padding: 2em 0;
+
+                h4 {
+                    margin: 0em 0;
+                }
+            }
+        }
+    
+        
+    }
+
+    .projets_image {
+        width: 50vw;
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+    .projets {
+        flex-direction: column;
+
+        .projets_liste {
+            width: 100%;
+
+            .projets_liste_projet {
+                max-height: 10vh;
+
+                .projets_liste_projet_titre {
+
+                    h3 {
+                        font-size: 1.4em;
+                    }
+                }
+
+            }
+
+            .projets_liste_projet_info {
+
+                h4 {
+                    margin: 0.2em 0;
+                }
+            }
+        }
+
+        img {
+            display: none;
+        }
+    }
+}

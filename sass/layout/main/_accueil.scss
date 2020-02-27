@@ -1,0 +1,30 @@
+/*
+
+    Author: Julien Savoie
+    Accueil
+
+*/
+
+section.accueil {
+    position: fixed;
+    padding: 60px;
+    height: 100vh;
+    margin: 0 10vw;
+    z-index: -100000;
+    pointer-events: none;
+
+    h2 {
+        padding-top: 80px;
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+    section.accueil {
+        padding: 0;
+        h2 {
+            color: $noirPrincipale;
+            font-size: 3em;
+        }
+    }
+}
