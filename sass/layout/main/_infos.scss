@@ -6,5 +6,21 @@
 */
 
 .infos {
-    
+    margin-top: 100vh;
+    max-width: 100%;
+    height: 100vh;
+    padding: 0 10vw;
+    display: flex;
+    flex-direction: column;
+
+    .infos-moi {
+
+        h2 {
+            
+        }
+
+        p {
+            font-size: 1.5em;
+        }
+    }
 }

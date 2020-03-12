@@ -6,12 +6,13 @@
 */
 
 .contact {
-    margin-top: 40vh;
-    margin-bottom: 40vh;
-    height: 20vh;
+    // margin-top: 40vh;
+    // margin-bottom: 40vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-content: center;
+    justify-content: center;
 
     div {
         align-self: center;
