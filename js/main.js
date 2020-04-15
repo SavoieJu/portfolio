@@ -101,8 +101,9 @@ function changementImage(el) {
     if (el == null) {
         console.log("Image départ");
     } else {
+        let name = el.children[0].innerHTML.replace(/\s+/g, '');
         console.log("Image projet", el.children[0].innerHTML);
-        imageProjet.src = "images/" + el.children[0].innerHTML + ".png";
+        imageProjet.src = "images/" + name + ".png";
     }
 }
 
