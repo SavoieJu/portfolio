@@ -14,9 +14,10 @@ function Mobilecheck() {
 window.addEventListener("load", () => {
     menuOpacity();
     textTransition();
+    checkedAccordeon()
     accordeon();
 
-    if (this.scrollY > 100) {
+    if (this.scrollY > 1) {
         let bigTextAccueil = document.querySelector("section.accueil > h2");
         if (bigTextAccueil != undefined) {
             bigTextAccueil.style.transform = "translateX("+ this.scrollY*3 +"px)";
@@ -53,6 +54,7 @@ function accordeon() {
 
     projetAccordeon.forEach(el => {
         el.addEventListener("click", function() {
+            changementImage(el);
             if (el.children[2].checked == true) {
                 el.children[2].checked = false;
                 el.children[1].children[0].style.transform = "rotate(0deg)";
@@ -67,11 +69,11 @@ function accordeon() {
 }
 
 function maxHeightAccordeon() {
-    let maxHeight = "10vh";
+    let maxHeight = "15vh";
     if (Mobilecheck()) {
-        maxHeight = "10vh";
+        maxHeight = "15vh";
     }  else {
-        maxHeight = "10vh";
+        maxHeight = "15vh";
     }
     
     return maxHeight;
@@ -87,7 +89,7 @@ function checkedAccordeon() {
             el.parentElement.style.maxHeight = maxHeightAccordeon();
             el.children[1].children[0].style.transform = "rotate(0deg)";
         } else {
-            el.parentElement.style.maxHeight = "40vh";
+            el.parentElement.style.maxHeight = "100%";
             el.children[1].children[0].style.transform = "rotate(-180deg)";
         }
     });
@@ -95,10 +97,12 @@ function checkedAccordeon() {
 
 
 function changementImage(el) {
+    let imageProjet = document.querySelector(".imageProjet");
     if (el == null) {
         console.log("Image départ");
     } else {
         console.log("Image projet", el.children[0].innerHTML);
+        imageProjet.src = "images/" + el.children[0].innerHTML + ".png";
     }
 }
 

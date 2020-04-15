@@ -18,15 +18,30 @@
         align-self: center;
     }
 
+    div > h3 > a {
+        font-size: 1.5em;
+    }
+
     .contact_logos {
         z-index: 100000;
         span {
             font-size: 1.5em;
             padding: 0 20px;
         }
+
+        
     }
 
     .clipboard {
         display: none;
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+    .contact {
+        div > h3 > a {
+            font-size: 0.9em;
+        }
     }
 }
