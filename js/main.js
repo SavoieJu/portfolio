@@ -14,8 +14,7 @@ function Mobilecheck() {
 window.addEventListener("load", () => {
     menuOpacity();
     textTransition();
-    checkedAccordeon()
-    accordeon();
+    detailsListener()
 
     if (this.scrollY > 1) {
         let bigTextAccueil = document.querySelector("section.accueil > h2");
@@ -48,63 +47,25 @@ function textTransition() {
     });
 }
 
+function detailsListener() {
+    let details = document.querySelectorAll("details")
 
-function accordeon() {
-    let projetAccordeon = document.querySelectorAll(".projets_liste_projet_titre");
-
-    projetAccordeon.forEach(el => {
-        el.addEventListener("click", function() {
-            changementImage(el);
-            if (el.children[2].checked == true) {
-                el.children[2].checked = false;
-                el.children[1].children[0].style.transform = "rotate(0deg)";
-                checkedAccordeon();
-            } else {
-                el.children[2].checked = true;
-                el.children[1].children[0].style.transform = "rotate(-180deg)";
-                checkedAccordeon();
+    details.forEach((el)=>{
+        el.addEventListener("toggle", () => {
+            if (el.classList[0] == "tcan" & el.open == true) {
+                ChangerImage("TeamstersCanada.png");
+            } else if (el.classList[0] == "t106" & el.open == true) {
+                ChangerImage("Teamsters106.png");
+            } else if (el.classList[0] == "osrs" & el.open == true) {
+                ChangerImage("OSRSXPDashboard.png");
+            } else if (el.classList[0] == "papp" & el.open == true){
+                ChangerImage("Elementaris.png");
             }
-        });
-    });
+        })
+    })
 }
 
-function maxHeightAccordeon() {
-    let maxHeight = "15vh";
-    if (Mobilecheck()) {
-        maxHeight = "15vh";
-    }  else {
-        maxHeight = "15vh";
-    }
-    
-    return maxHeight;
+function ChangerImage(path) {
+    let imgHolder = document.querySelector(".imageProjet");
+    imgHolder.src = "images/" + path
 }
-
-function checkedAccordeon() {
-    let projetAccordeon = document.querySelectorAll(".projets_liste_projet_titre");
-    console.log(window.innerWidth);
-    
-    
-    projetAccordeon.forEach(el => {
-        if (el.children[2].checked == false) {
-            el.parentElement.style.maxHeight = maxHeightAccordeon();
-            el.children[1].children[0].style.transform = "rotate(0deg)";
-        } else {
-            el.parentElement.style.maxHeight = "100%";
-            el.children[1].children[0].style.transform = "rotate(-180deg)";
-        }
-    });
-}
-
-
-function changementImage(el) {
-    let imageProjet = document.querySelector(".imageProjet");
-    if (el == null) {
-        console.log("Image départ");
-    } else {
-        let name = el.children[0].innerHTML.replace(/\s+/g, '');
-        console.log("Image projet", el.children[0].innerHTML);
-        imageProjet.src = "images/" + name + ".png";
-    }
-}
-
-
