@@ -678,17 +678,13 @@ section.accueil h2 {
       align-self: center;
 }
 
-.projets .projets_liste_projet details summary {
-  font-size: 2.3em;
+.projets .projets_liste_projet {
   padding: 10px;
-  margin: 10px 0;
-  outline: none;
-  cursor: pointer;
+  border: #070707 solid 1px;
 }
 
-.projets .projets_liste_projet details p {
-  margin-left: 60px;
-  padding-right: 20px;
+.projets .projets_liste_projet a:hover {
+  text-decoration: underline;
 }
 
 .projets .projets_liste_projet details[open] summary ~ * {
@@ -856,4 +852,3 @@ a {
   text-decoration: none;
   -webkit-text-stroke-width: 1px;
 }
-/*# sourceMappingURL=style.css.map */

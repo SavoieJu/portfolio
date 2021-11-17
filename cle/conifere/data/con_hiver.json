@@ -1,0 +1,271 @@
+{
+    "conifere": {
+        "info": {
+            "images": {
+                "titre": "Titre de l'image",
+                "url": "../images/image.png"
+            },
+            "nom": "Conifères",
+            "description": ""
+        },
+        "choix": [
+            "ecailles",
+            "aiguilles"
+        ]
+    },
+    "ecailles": {
+        "info": {
+            "images": {
+                "titre": "Titre de l'image",
+                "url": "../images/image.png"
+            },
+            "nom": "Feuilles en forme d’écailles",
+            "description": ""
+        },
+        "resultat": [
+            "thuya"
+        ]
+    },
+    "aiguilles": {
+        "info": {
+            "images": {
+                "titre": "Titre de l'image",
+                "url": "../images/image.png"
+            },
+            "nom": "Feuilles en forme d’aiguilles",
+            "description": ""
+        },
+        "choix": [
+            "persistantes",
+            "tombees"
+        ]
+    },
+    "persistantes": {
+        "info": {
+            "images": {
+                "titre": "Titre de l'image",
+                "url": "../images/image.png"
+            },
+            "nom": "Aiguilles persistantes",
+            "description": "Qui sont présentes toute l’année"
+        },
+        "choix": [
+            "isolees",
+            "regroupees"
+        ]
+    },
+    "tombees": {
+        "info": {
+            "images": {
+                "titre": "Titre de l'image",
+                "url": "../images/image.png"
+            },
+            "nom": "Aiguilles tombées à l’hiver",
+            "description": "En faisceaux de 15 à 25 aiguilles à l’été"
+        },
+        "resultat": [
+            "meleze"
+        ]
+    },
+    "isolees": {
+        "info": {
+            "images": {
+                "titre": "Titre de l'image",
+                "url": "../images/image.png"
+            },
+            "nom": "Aiguilles isolées",
+            "description": "Attachée une à une au rameau"
+        },
+        "choix": [
+            "aplaties",
+            "cotes"
+        ]
+    },
+    "regroupees": {
+        "info": {
+            "images": {
+                "titre": "Titre de l'image",
+                "url": "../images/image.png"
+            },
+            "nom": "Aiguilles regroupées en faisceaux",
+            "description": ""
+        },
+        "choix": [
+            "blanc",
+            "gris",
+            "rouge"
+        ]
+    },
+    "aplaties": {
+        "info": {
+            "images": {
+                "titre": "Titre de l'image",
+                "url": "../images/image.png"
+            },
+            "nom": "Aiguilles aplaties",
+            "description": ""
+        },
+        "choix": [
+            "sessiles",
+            "petiolees"
+        ]
+    },
+    "cotes": {
+        "info": {
+            "images": {
+                "titre": "Titre de l'image",
+                "url": "../images/image.png"
+            },
+            "nom": "Aiguilles à 4 côtés",
+            "description": "Tourner entre les doigts pour le sentir"
+        },
+        "resultat": [
+            "epinettes"
+        ]
+    },
+    "sessiles": {
+        "info": {
+            "images": {
+                "titre": "Titre de l'image",
+                "url": "../images/image.png"
+            },
+            "nom": "Aiguilles sessiles",
+            "description": "Sans pédoncule"
+        },
+        "resultat": [
+            "baumier"
+        ]
+    },
+    "petiolees": {
+        "info": {
+            "images": {
+                "titre": "Titre de l'image",
+                "url": "../images/image.png"
+            },
+            "nom": "Aiguilles pétiolées",
+            "description": "Petit pédoncule entre le rameau et l’aiguille"
+        },
+        "resultat": [
+            "pruche"
+        ]
+    },
+    "blanc": {
+        "info": {
+            "images": {
+                "titre": "Titre de l'image",
+                "url": "../images/image.png"
+            },
+            "nom": "Faisceaux de 5 aiguilles de 7 à 12 cm",
+            "description": ""
+        },
+        "resultat": [
+            "pinblanc"
+        ]
+    },
+    "gris": {
+        "info": {
+            "images": {
+                "titre": "Titre de l'image",
+                "url": "../images/image.png"
+            },
+            "nom": "Faisceaux de 2 aiguilles de 2 à 5 cm",
+            "description": ""
+        },
+        "resultat": [
+            "pingris"
+        ]
+    },
+    "rouge": {
+        "info": {
+            "images": {
+                "titre": "Titre de l'image",
+                "url": "../images/image.png"
+            },
+            "nom": "Faisceaux de 2 aiguilles de 13 à 18 cm",
+            "description": ""
+        },
+        "resultat": [
+            "pinrouge"
+        ]
+    },
+    "thuya": {
+        "info": {
+            "images": {
+                "titre": "Titre de l'image",
+                "url": "../images/image.png"
+            },
+            "nom": "Thuya",
+            "description": ""
+        }
+    },
+    "meleze": {
+        "info": {
+            "images": {
+                "titre": "Titre de l'image",
+                "url": "../images/image.png"
+            },
+            "nom": "Mélèze laricin",
+            "description": ""
+        }
+    },
+    "baumier": {
+        "info": {
+            "images": {
+                "titre": "Titre de l'image",
+                "url": "../images/image.png"
+            },
+            "nom": "Sapin baumier",
+            "description": ""
+        }
+    },
+    "pruche": {
+        "info": {
+            "images": {
+                "titre": "Titre de l'image",
+                "url": "../images/image.png"
+            },
+            "nom": "Pruche du Canada",
+            "description": ""
+        }
+    },
+    "epinettes": {
+        "info": {
+            "images": {
+                "titre": "Titre de l'image",
+                "url": "../images/image.png"
+            },
+            "nom": "Épinettes",
+            "description": ""
+        }
+    },
+    "pinblanc": {
+        "info": {
+            "images": {
+                "titre": "Titre de l'image",
+                "url": "../images/image.png"
+            },
+            "nom": "Pin blanc",
+            "description": ""
+        }
+    },
+    "pingris": {
+        "info": {
+            "images": {
+                "titre": "Titre de l'image",
+                "url": "../images/image.png"
+            },
+            "nom": "Pin gris",
+            "description": ""
+        }
+    },
+    "pinrouge": {
+        "info": {
+            "images": {
+                "titre": "Titre de l'image",
+                "url": "../images/image.png"
+            },
+            "nom": "Pin rouge",
+            "description": ""
+        }
+    }
+}
