@@ -74,7 +74,7 @@
                 "titre": "Titre de l'image",
                 "url": "../images/image.png"
             },
-            "nom": "Abrisseaux avec des feuilles squamiformes",
+            "nom": "Arbrisseaux avec des feuilles squamiformes",
             "description": ""
         },
         "resultat": [
@@ -87,7 +87,7 @@
                 "titre": "Titre de l'image",
                 "url": "../images/image.png"
             },
-            "nom": "Abrisseaux avec des feuilles aciculaire",
+            "nom": "Arbrisseaux avec des feuilles aciculaires",
             "description": ""
         },
         "choix": [
@@ -144,8 +144,35 @@
             "nom": "Feuilles en forme d’écailles",
             "description": ""
         },
+        "choix": [
+            "ecailleapplatit",
+            "ecaillerond"
+        ]
+    },
+    "ecailleapplatit": {
+        "info": {
+            "images": {
+                "titre": "Titre de l'image",
+                "url": "../images/image.png"
+            },
+            "nom": "Les rameaux sont aplatis",
+            "description": ""
+        },
         "resultat": [
             "thuya"
+        ]
+    },
+    "ecaillerond": {
+        "info": {
+            "images": {
+                "titre": "Titre de l'image",
+                "url": "../images/image.png"
+            },
+            "nom": "Les rameaux sont circulaire vue de face",
+            "description": ""
+        },
+        "resultat": [
+            "genvir"
         ]
     },
     "aciculaire": {
@@ -169,7 +196,7 @@
                 "url": "../images/image.png"
             },
             "nom": "Aiguilles persistantes",
-            "description": "Qui sont présentes toute l’année"
+            "description": "Les aiguilles sont présentes toute l’année"
         },
         "choix": [
             "isolees",
@@ -196,7 +223,7 @@
                 "url": "../images/image.png"
             },
             "nom": "Aiguilles isolées",
-            "description": "Attachée une à une au rameau"
+            "description": "Attachée directement au rameau"
         },
         "choix": [
             "aplaties",
@@ -374,6 +401,16 @@
             "description": ""
         }
     },
+    "genvir": {
+        "info": {
+            "images": {
+                "titre": "Titre de l'image",
+                "url": "../images/image.png"
+            },
+            "nom": "Genévrier de Virginie",
+            "description": ""
+        }
+    },
     "meleze": {
         "info": {
             "images": {
@@ -430,7 +467,7 @@
                 "titre": "Titre de l'image",
                 "url": "../images/image.png"
             },
-            "nom": "Épinette noir",
+            "nom": "Épinette noire",
             "description": ""
         }
     },
@@ -470,7 +507,7 @@
                 "titre": "Titre de l'image",
                 "url": "../images/image.png"
             },
-            "nom": "Génevrier commun",
+            "nom": "Genévrier commun",
             "description": ""
         }
     },
@@ -480,7 +517,7 @@
                 "titre": "Titre de l'image",
                 "url": "../images/image.png"
             },
-            "nom": "Génevrier horizontal",
+            "nom": "Genévrier horizontal",
             "description": ""
         }
     },
@@ -490,7 +527,7 @@
                 "titre": "Titre de l'image",
                 "url": "../images/image.png"
             },
-            "nom": "If du canada",
+            "nom": "If du Canada",
             "description": ""
         }
     }
