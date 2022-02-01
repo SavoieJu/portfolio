@@ -333,7 +333,7 @@
                 "url": "../images/image.png"
             },
             "nom": "Aiguilles sessiles",
-            "description": "Sans pédoncule"
+            "description": "Sans pétiole qui relie l'aiguille au rameau"
         },
         "resultat": [
             "baumier"
@@ -346,7 +346,7 @@
                 "url": "../images/image.png"
             },
             "nom": "Aiguilles pétiolées",
-            "description": "Petit pédoncule entre le rameau et l’aiguille"
+            "description": "Petite pétiole entre l’aiguille et le rameau"
         },
         "resultat": [
             "pruche"
