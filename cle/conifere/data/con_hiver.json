@@ -9,11 +9,147 @@
             "description": ""
         },
         "choix": [
-            "ecailles",
-            "aiguilles"
+            "brachyblaste",
+            "pasbrachyblaste"
         ]
     },
-    "ecailles": {
+    "pasbrachyblaste": {
+        "info": {
+            "images": {
+                "titre": "Titre de l'image",
+                "url": "../images/image.png"
+            },
+            "nom": "pas de brachyblaste",
+            "description": ""
+        },
+        "choix": [
+            "arbre",
+            "arbrusseau"
+        ]
+    },
+    "brachyblaste": {
+        "info": {
+            "images": {
+                "titre": "Titre de l'image",
+                "url": "../images/image.png"
+            },
+            "nom": "présence de brachyblaste",
+            "description": ""
+        },
+        "resultat": [
+            "meleze"
+        ]
+    },
+    "arbrearbrusseau": {
+        "info": {
+            "images": {
+                "titre": "Titre de l'image",
+                "url": "../images/image.png"
+            },
+            "nom": "Conifères",
+            "description": ""
+        },
+        "choix": [
+            "arbre",
+            "arbrusseau"
+        ]
+    },
+    "arbre": {
+        "info": {
+            "images": {
+                "titre": "Titre de l'image",
+                "url": "../images/image.png"
+            },
+            "nom": "Arbres dépassant 4m",
+            "description": ""
+        },
+        "choix": [
+            "squamiforme",
+            "aciculaire"
+        ]
+    },
+    "arbrusseau": {
+        "info": {
+            "images": {
+                "titre": "Titre de l'image",
+                "url": "../images/image.png"
+            },
+            "nom": "Arbre ne dépassant pas 4m",
+            "description": ""
+        },
+        "choix": [
+            "arbrusseausquamiforme",
+            "arbrusseauaciculaire"
+        ]
+    },
+    "arbrusseausquamiforme": {
+        "info": {
+            "images": {
+                "titre": "Titre de l'image",
+                "url": "../images/image.png"
+            },
+            "nom": "Abrusseaux avec des feuilles squamiformes",
+            "description": ""
+        },
+        "resultat": [
+            "junihor"
+        ]
+    },
+    "arbrusseauaciculaire": {
+        "info": {
+            "images": {
+                "titre": "Titre de l'image",
+                "url": "../images/image.png"
+            },
+            "nom": "Abrusseaux avec des feuilles aciculaire",
+            "description": ""
+        },
+        "choix": [
+            "petioler",
+            "nonpetioler"
+        ]
+    },
+    "petioler": {
+        "info": {
+            "images": {
+                "titre": "Titre de l'image",
+                "url": "../images/image.png"
+            },
+            "nom": "Présence de pétiole",
+            "description": ""
+        },
+        "resultat": [
+            "ifcan"
+        ]
+    },
+    "nonpetioler": {
+        "info": {
+            "images": {
+                "titre": "Titre de l'image",
+                "url": "../images/image.png"
+            },
+            "nom": "Aucune présence de pétiole",
+            "description": ""
+        },
+        "resultat": [
+            "junicom"
+        ]
+    },
+    "arbresquamiforme": {
+        "info": {
+            "images": {
+                "titre": "Titre de l'image",
+                "url": "../images/image.png"
+            },
+            "nom": "Feuilles en forme d’écailles",
+            "description": ""
+        },
+        "choix": [
+            "squamiforme",
+            "aciculaire"
+        ]
+    },
+    "squamiforme": {
         "info": {
             "images": {
                 "titre": "Titre de l'image",
@@ -26,7 +162,7 @@
             "thuya"
         ]
     },
-    "aiguilles": {
+    "aciculaire": {
         "info": {
             "images": {
                 "titre": "Titre de l'image",
@@ -36,8 +172,8 @@
             "description": ""
         },
         "choix": [
-            "persistantes",
-            "tombees"
+            "isolees",
+            "regroupees"
         ]
     },
     "persistantes": {
@@ -119,8 +255,62 @@
             "nom": "Aiguilles à 4 côtés",
             "description": "Tourner entre les doigts pour le sentir"
         },
+        "choix": [
+            "pubescence",
+            "aucunepubescence"
+        ]
+    },
+    "aucunepubescence": {
+        "info": {
+            "images": {
+                "titre": "Titre de l'image",
+                "url": "../images/image.png"
+            },
+            "nom": "Aucune pubescence sur les rameaux",
+            "description": ""
+        },
         "resultat": [
-            "epinettes"
+            "epinetteblanche"
+        ]
+    },
+    "pubescence": {
+        "info": {
+            "images": {
+                "titre": "Titre de l'image",
+                "url": "../images/image.png"
+            },
+            "nom": "Présence de pubescence sur les rameaux",
+            "description": ""
+        },
+        "choix": [
+            "l1016",
+            "l815"
+        ]
+    },
+    "l1016": {
+        "info": {
+            "images": {
+                "titre": "Titre de l'image",
+                "url": "../images/image.png"
+            },
+            "nom": "aiguille de 10 à 16 mm",
+            "description": ""
+        },
+        "resultat": [
+            "epinetterouge"
+        ]
+    },
+    "l815": {
+        "info": {
+            "images": {
+                "titre": "Titre de l'image",
+                "url": "../images/image.png"
+            },
+            "nom": "Aiguilles de 8 à 15 mm",
+            "description": ""
+        },
+        "resultat": [
+            "epinettenoir"
         ]
     },
     "sessiles": {
@@ -228,13 +418,33 @@
             "description": ""
         }
     },
-    "epinettes": {
+    "epinetteblanche": {
         "info": {
             "images": {
                 "titre": "Titre de l'image",
                 "url": "../images/image.png"
             },
-            "nom": "Épinettes",
+            "nom": "Épinette blanche",
+            "description": ""
+        }
+    },
+    "epinetterouge": {
+        "info": {
+            "images": {
+                "titre": "Titre de l'image",
+                "url": "../images/image.png"
+            },
+            "nom": "Épinette rouge",
+            "description": ""
+        }
+    },
+    "epinettenoir": {
+        "info": {
+            "images": {
+                "titre": "Titre de l'image",
+                "url": "../images/image.png"
+            },
+            "nom": "Épinette noir",
             "description": ""
         }
     },
@@ -265,6 +475,36 @@
                 "url": "../images/image.png"
             },
             "nom": "Pin rouge",
+            "description": ""
+        }
+    },
+    "junicom": {
+        "info": {
+            "images": {
+                "titre": "Titre de l'image",
+                "url": "../images/image.png"
+            },
+            "nom": "Génevrier commun",
+            "description": ""
+        }
+    },
+    "junihor": {
+        "info": {
+            "images": {
+                "titre": "Titre de l'image",
+                "url": "../images/image.png"
+            },
+            "nom": "Génevrier horizontal",
+            "description": ""
+        }
+    },
+    "ifcan": {
+        "info": {
+            "images": {
+                "titre": "Titre de l'image",
+                "url": "../images/image.png"
+            },
+            "nom": "If du canada",
             "description": ""
         }
     }
