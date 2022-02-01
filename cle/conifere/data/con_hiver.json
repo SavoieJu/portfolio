@@ -19,12 +19,12 @@
                 "titre": "Titre de l'image",
                 "url": "../images/image.png"
             },
-            "nom": "pas de brachyblaste",
+            "nom": "Pas de brachyblaste",
             "description": ""
         },
         "choix": [
             "arbre",
-            "arbrusseau"
+            "arbrisseau"
         ]
     },
     "brachyblaste": {
@@ -33,25 +33,11 @@
                 "titre": "Titre de l'image",
                 "url": "../images/image.png"
             },
-            "nom": "présence de brachyblaste",
-            "description": ""
+            "nom": "Présence de brachyblaste",
+            "description": "Très court rameau qui porte directement les aiguilles"
         },
         "resultat": [
             "meleze"
-        ]
-    },
-    "arbrearbrusseau": {
-        "info": {
-            "images": {
-                "titre": "Titre de l'image",
-                "url": "../images/image.png"
-            },
-            "nom": "Conifères",
-            "description": ""
-        },
-        "choix": [
-            "arbre",
-            "arbrusseau"
         ]
     },
     "arbre": {
@@ -61,28 +47,28 @@
                 "url": "../images/image.png"
             },
             "nom": "Arbres dépassant 4m",
-            "description": ""
+            "description": "Arbre"
         },
         "choix": [
             "squamiforme",
             "aciculaire"
         ]
     },
-    "arbrusseau": {
+    "arbrisseau": {
         "info": {
             "images": {
                 "titre": "Titre de l'image",
                 "url": "../images/image.png"
             },
             "nom": "Arbre ne dépassant pas 4m",
-            "description": ""
+            "description": "Arbrisseau"
         },
         "choix": [
-            "arbrusseausquamiforme",
-            "arbrusseauaciculaire"
+            "arbrisseausquamiforme",
+            "arbrisseauaciculaire"
         ]
     },
-    "arbrusseausquamiforme": {
+    "arbrisseausquamiforme": {
         "info": {
             "images": {
                 "titre": "Titre de l'image",
@@ -95,7 +81,7 @@
             "junihor"
         ]
     },
-    "arbrusseauaciculaire": {
+    "arbrisseauaciculaire": {
         "info": {
             "images": {
                 "titre": "Titre de l'image",
@@ -384,7 +370,7 @@
                 "titre": "Titre de l'image",
                 "url": "../images/image.png"
             },
-            "nom": "Thuya",
+            "nom": "Thuya occidental",
             "description": ""
         }
     },
