@@ -322,6 +322,190 @@
                             }
                         }
                     }
+                },
+                "Oiseaux": {
+                    "Accipitriformes": {
+                        "Accipitridés": {
+                            "Buteo": {
+                                "Buteo platypterus": "Petite buse"
+                            }
+                        }
+                    },
+                    "Anseriformes": {
+                        "Anatidés": {
+                            "Anser": {
+                                "Anser caerulescens": "Oie des neiges"
+                            },
+                            "Branta": {
+                                "Branta canadensis": "Bernache du Canada"
+                            }                            
+                        }
+                    },
+                    "Caprimulgiformes": {
+                        "Caprimulgidés": {
+                            "Chordeiles": {
+                                "Chordeiles minor": "Engoulevent d'Amérique"
+                            }   
+                        }
+                    },
+                    "Charadriiformes": {
+                        "Charadriidés": {
+                            "Charadrius": {
+                                "Charadrius vociferus": "Pluvier kildir"
+                            }
+                        },
+                        "Scolopacidés": {
+                            "Gallinago": {
+                                "Gallinago delicata": "Bécassine de Wilson"
+                            },
+                            "Scolopax": {
+                                "Scolopax minor": "Bécasse d'Amérique"
+                            }                            
+                        }
+                    },
+                    "Columbiformes": {
+                        "Columbidés": {
+                            "Zenaida": {
+                                "Zenaida macroura": "Tourterelle triste"
+                            }
+                        }
+                    },
+                    "Galliformes": {
+                        "Phasianidés": {
+                            "Bonasa": {
+                                "Bonasa umbellus": "Gélinotte huppée"
+                            }
+                        }
+                    },
+                    "Passeriformes": {
+                        "Calcariidés": {
+                            "Plectrophenax": {
+                                "Plectrophenax nivalis": "Plectrophane des neiges"
+                            }
+                        },
+                        "Cardinalidés": {
+                            "Cardinalis": {
+                                "Cardinalis cardinalis": "Cardinal rouge"
+                            },
+                            "Pheucticus": {
+                                "Pheucticus ludovicianus": "Cardinal à poitrine rose"
+                            }
+                        },
+                        "Corvidés": {
+                            "Corvus": {
+                                "Corvus brachyrhynchos": "Corneille d'Amérique",
+                                "Corvus corax": "Grand Corbeau"
+                            },
+                            "Cyanocitta": {
+                                "Cyanocitta cristata": "Geai bleu"
+                            }
+                        },
+                        "Fringillidés": {
+                            "Spinus": {
+                                "Spinus tristis": "Chardonneret jaune"
+                            }
+                        },
+                        "Icteridés": {
+                            "Quiscalus": {
+                                "Quiscalus quiscula": "Quiscale bronzé"
+                            },
+                            "Molothrus": {
+                                "Molothrus ater": "Vacher à tête brune"
+                            }
+                        },
+                        "Mimidés": {
+                            "Dumetella": {
+                                "Dumetella carolinensis": "Moqueur chat"
+                            }
+                        },
+                        "Paridés": {
+                            "Poecile": {
+                                "Poecile atricapillus": "Mésange à tête noire"
+                            }
+                        },
+                        "Parulidés": {
+                            "Setophaga": {
+                                "Setophaga virens": "Paruline à gorge noire",
+                                "Setophaga petechia": "Paruline jaune"
+                            },
+                            "Seiurus": {
+                                "Seiurus aurocapilla": "Paruline couronnée"
+                            },
+                            "Geothlypis": {
+                                "Geothlypis trichas": "Paruline masquée"
+                            }
+                        },
+                        "Passerellidés": {
+                            "Zonotrichia": {
+                                "Zonotrichia albicollis": "Bruant à gorge blanche"
+                            },
+                            "Melospiza": {
+                                "Melospiza melodia": "Bruant chanteur"
+                            },
+                            "Ammospiza": {
+                                "Ammospiza nelsoni": "Bruant de Nelson"
+                            },
+                            "Spizella": {
+                                "Spizella passerina": "Bruant familier"
+                            },
+                            "Junco": {
+                                "Junco hyemalis": "Junco ardoisé"
+                            } 
+                        },
+                        "Passeridés": {
+                            "Passer": {
+                                "Passer domesticus": "Moineau domestique"
+                            }
+                        },
+                        "Regulidés": {
+                            "Regulus": {
+                                "Regulus satrapa": "Roitelet à couronne dorée"
+                            },
+                            "Corthylio": {
+                                "Corthylio calendula": "Roitelet à couronne rubis"
+                            }
+                        },
+                        "Sittidés": {
+                            "Sitta": {
+                                "Sitta carolinensis": "Sittelle à poitrine blanche",
+                                "Sitta canadensis": "Sittelle à poitrine rousse"
+                            } 
+                        },
+                        "Troglodytidés": {
+                            "Troglodytes": {
+                                "Troglodytes troglodytes": "Troglodyte mignon"
+                            }
+                        },
+                        "Turdidés": {
+                            "Catharus": {
+                                "Catharus ustulatus": "Grive à dos olive",
+                                "Catharus minimus": "Grive à joues grises",
+                                "Catharus bicknelli": "Grive de Bicknell",
+                                "Catharus fuscescens": "Grive fauve",
+                                "Catharus guttatus": "Grive solitaire"
+                            },
+                            "Hylocichla": {
+                                "Hylocichla mustelina": "Grive des bois"
+                            }
+                        },
+                        "Tyrannidés": {
+                            "Sayornis": {
+                                "Sayornis phoebe": "Moucherolle phébi"
+                            },
+                            "Empidonax": {
+                                "Empidonax minimus": "Moucherolle tchébec"
+                            },
+                            "Contopus": {
+                                "Contopus virens": "Pioui de l'Est"
+                            }
+                        },
+                        "Vireonidés": {
+                            "Vireo": {
+                                "Vireo solitarius": "Viréo à tête bleue",
+                                "Vireo olivaceus": "Viréo aux yeux rouges"
+                            }
+                        }
+                    }
                 }
             }            
         }
