@@ -58,27 +58,88 @@
                     },
                     "Lagomorphes": {
                         "Léporidés": {
-                            
+                            "Sylvilagus": {
+                                "Sylvilagus floridanus": "Lapin à queue blanche"
+                            },
+                            "Lepus": {
+                                "Lepus americanus": "Lièvre d'Amérique",
+                                "Lepus europaeus": "Lièvre d'Europe",
+                                "Lepus arcticus": "Lièvre arctique"
+                            }
                         }
                     },
                     "Rongeurs": {
                         "Sciuridés": {
-    
+                            "tamias":{
+                                "Tamias striatus": "Tamia rayé",
+                                "Tamias (Neotamias) minimus": "Tamia mineur"
+                            },
+                            "Marmota": {
+                                "Marmota monax": "Marmotte commune"
+                            },
+                            "Ciurus": {
+                                "Ciurus carolinensis": "Écureuil gris"
+                            },
+                            "Tamiasciurus": {
+                                "Tamiasciurus hudsonicus": "Écureuil roux"
+                            },
+                            "Glaucomys": {
+                                "Glaucomys volans": "Petit polatouche",
+                                "Glaucomys sabrinus": "Grand polatouche"
+                            }
                         },
                         "Castoridés": {
-    
+                            "Castor": {
+                                "Castor canadensis": "Castor du Canada"
+                            }
                         },
                         "Cricétidés": {
-    
+                            "Peromyscus": {
+                                "Peromyscus maniculatus": "Souris sylvestre",
+                                "Peromyscus leucopus": "Souris à pattes blanches"
+                            },
+                            "Myodes": {
+                                "Myodes gapperi": "Campagnol-à-dos-roux de Gapper"
+                            },
+                            "Phenacomys": {
+                                "Phenacomys ungava (intermedius)": "Campagnol des bruyères"
+                            },
+                            "Microtus": {
+                                "Microtus pinetorum": "Campagnol sylvestre",
+                                "Microtus pennsylvanicus": "Campagnol des champs",
+                                "Microtus chrotorrhinus": "Campagnol des rochers"
+                            },
+                            "Ondatra": {
+                                "Ondatra zibethicus": "Rat-musqué commun"
+                            },
+                            "Synaptomys": {
+                                "Synaptomys cooperi": "Campagnol-lemming de Cooper",
+                                "Synaptomys borealis": "Campagnol-lemming boréal"
+                            },
+                            "Discrostonyx": {
+                                "Discrostonyx hudsonius": "Lemming d'Ungava"
+                            }
                         },
                         "Muridés": {
-    
+                            "Rattus": {
+                                "Rattus norvegicus": "Rat surmulot"
+                            },
+                            "Mus": {
+                                "Mus musculus": "Souris commune"
+                            }
                         },
                         "Dipodidés": {
-    
+                            "Zapus": {
+                                "Zapus hudsonius": "Souris-sauteuse des champs"
+                            },
+                            "Napaeozapus": {
+                                "Napaeozapus insignis": "Souris-sauteuse des bois"
+                            }
                         },
                         "Éréthizontidés": {
-    
+                            "Erethizon": {
+                                "Erethizon dorsatum": "Porc-épic d'Amérique"
+                            }
                         }
                     },
                     "Carnivores": {
@@ -143,10 +204,20 @@
                     },
                     "Artiodactyles": {
                         "Cervidés": {
-    
+                            "Odocoileus": {
+                                "Odocoileus virginianus": "Cerf de Virginie"
+                            },
+                            "Alces": {
+                                "Alces americanus": "Orignal"
+                            },
+                            "Rangifer": {
+                                "Rangifer tarandus caribou": "Caribou des bois"
+                            }
                         },
                         "Bovidés": {
-    
+                            "Ovibos": {
+                                "Ovibos moschatus": "Boeuf musqué"
+                            }
                         }
                     }
                 }
