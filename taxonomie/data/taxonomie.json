@@ -1,6 +1,108 @@
 {
     "Eukaryotes": {
         "Animaux": {
+            "Arthropodes": {
+                "Insectes": {
+                    "Coléoptères": {
+                        "Cerambycidae": {
+                            "Monochamus": {
+                                "Monochamus maculosus": "Longicorne du pin gris"
+                            }
+                        }
+                    },
+                    "Diptères": {
+                        "Tephritidés": {
+                            "Urophora": {
+                                "Urophora cardui": "Mouche du Chardon"
+                            }
+                        }
+                    },
+                    "Éphéméroptères": {
+                        "Éphéméridés": {
+                            "Hexagenia": {
+                                "Hexagenia limbata": "Big Michigan mayfly"
+                            }
+                        }
+                    },
+                    "Hémiptères": {
+                        "Cicadidés": {
+                            "Neotibicen": {
+                                "Neotibicen canicularis": "Cigale caniculaire"
+                            }
+                        }
+                    },
+                    "Hétéroptères": {
+                        "Coréidés": {
+                            "Leptoglossus": {
+                                "Leptoglossus occidentalis": "Punaise Américaine"
+                            }
+                        }
+                    },
+                    "Hyménoptères": {
+                        "Apidés": {
+                            "Apis": {
+                                "Apis mellifera": "Abeille domestique"
+                            }
+                        }
+                    },
+                    "Lépidoptères": {
+                        "Tortricidés": {
+                            "Choristoneura": {
+                                "Choristoneura fumiferana": "Tordeuse des bourgeons de l'épinette"
+                            }
+                        }
+                    },
+                    "Mégaloptères": {
+                        "Corydalidés": {
+                            "Chauliodes": {
+                                "Chauliodes pectinicornis": "Chauliode parchemin"
+                            }
+                        }
+                    },
+                    "Neuroptères": {
+                        "Myrmeleontidés": {
+                            "Myrmeleon": {
+                                "Myrmeleon immaculatus": "Fourmilion immaculé"
+                            }
+                        }
+                    },
+                    "Odonates": {
+                        "Libellulidés": {
+                            "Ladona": {
+                                "Ladona julia": "La julienne"
+                            }
+                        }
+                    },
+                    "Orthoptères": {
+                        "Tettigoniidés": {
+                            "Amblycorypha": {
+                                "Amblycorypha oblongifolia": "Scuddérie à ailes oblongues"
+                            }
+                        }
+                    },
+                    "Plécoptères": {
+                        "Pteronarcyidés": {
+                            "Pteronarcys": {
+                                "Pteronarcys dorsata": "Grand plécoptère à ligne dorsale"
+                            }
+                        }
+                    },
+                    "Siphonaptères": {
+                        "Pulicidés": {
+                            "Ctenocephalides": {
+                                "Ctenocephalides canis": "Puce du chien"
+                            }
+                        }
+                    },
+                    "Tricoptères": {
+                        "Hydropsychidés":{
+                            "Macrostemum": {
+                                "Macrostemum zebratum": "Zebra caddisfly"
+                            }
+                        }
+                    }
+                }
+            },
             "Chordés": {
                 "Mammifères": {
                     "Marsupiaux": {
@@ -221,13 +323,7 @@
                         }
                     }
                 }
-            }
-        },
-        "Archées": {},
-        "Bactéries": {},
-        "Chromistes": {},
-        "Fungi": {},
-        "Plantes": {},
-        "Protozoiques": {}
+            }            
+        }
     }
 }
