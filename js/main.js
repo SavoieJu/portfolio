@@ -14,7 +14,6 @@ function Mobilecheck() {
 window.addEventListener("load", () => {
     menuOpacity();
     textTransition();
-    detailsListener()
 
     if (this.scrollY > 1) {
         let bigTextAccueil = document.querySelector("section.accueil > h2");
@@ -45,24 +44,6 @@ function textTransition() {
     
         bigTextAccueil.style.transform = "translateX("+ this.scrollY*3 +"px)";
     });
-}
-
-function detailsListener() {
-    let details = document.querySelectorAll("details")
-
-    details.forEach((el)=>{
-        el.addEventListener("toggle", () => {
-            if (el.classList[0] == "tcan" & el.open == true) {
-                ChangerImage("TeamstersCanada.jpg");
-            } else if (el.classList[0] == "t106" & el.open == true) {
-                ChangerImage("Teamsters106.jpg");
-            } else if (el.classList[0] == "osrs" & el.open == true) {
-                ChangerImage("OSRSXPDashboard.jpg");
-            } else if (el.classList[0] == "papp" & el.open == true){
-                ChangerImage("Elementaris.jpg");
-            }
-        })
-    })
 }
 
 function ChangerImage(path) {
