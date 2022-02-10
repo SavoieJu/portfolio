@@ -508,6 +508,50 @@
                     }
                 }
             }            
+        },
+        "Plantes": {
+            "Pinophytes": {
+                "Pinopsida": {
+                    "Pinales": {
+                        "Cupressacés": {
+                            "Juniperus": {
+                                "Juniperus communis": "Genévrier commun",
+                                "Juniperus horizontalis": "Genévrier horizontal",
+                                "Juniperus virginiana": "Genévrier de Virginie"
+                            },
+                            "Thuja": {
+                                "Thuja occidentalis": "Thuya occidental"
+                            }
+                        },
+                        "Pinacés": {
+                            "Abies": {
+                                "Abies balsamea": "Sapin baumier"
+                            },
+                            "Larix": {
+                                "Larix laricina": "Mélèze laricin"
+                            },
+                            "Picea": {
+                                "Picea glauca": "Épinnette blanche",
+                                "Picea rubbens": "Épinette rouge",
+                                "Picea mariana": "Épinette noire"
+                            },
+                            "Pinus": {
+                                "Pinus banksiana": "Pin gris",
+                                "Pinus resinosa": " Pin rouge",
+                                "Pinus strobus": "Pin blanc"
+                            },
+                            "Tsuga": {
+                                "Tsuga canadensis": "Pruche du Canada"
+                            }
+                        },
+                        "Taxacés": {
+                            "Taxus": {
+                                "Taxus canadensis": "If du Canada"
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
 }
