@@ -1,0 +1,160 @@
+{
+    "Animaux": {
+        "Chordés": {
+            "Mammifères": {
+                "Marsupiaux": {
+                    "Didelphidés": {
+                        "Didelphis": {
+                            "Didelphis virginiana": "Opossum d'Amérique du Nord"
+                        }
+                    }
+                },
+                "Insectivores": {
+                    "Soricidés": {
+                        "Sorex": {
+                            "Sorex cinereus": "Musaraigne cendrée",
+                            "Sorex fumeus": "Musaraigne fuligineuse",
+                            "Sorex arcticus": "Musaraigne nordique",
+                            "Sorex maritimensis": "Musaraigne des Maritimes",
+                            "Sorex dispar": "Musaraigne longicaude",
+                            "Sorex palustris": "Musaraigne palustre",
+                            "Sorex hoyi": "Musaraigne pygmée"
+                        },
+                        "Blarina": {
+                            "Blarina brevicauda": "Grande musaraigne"
+                        }
+                    },
+                    "Talpidés": {
+                        "Parascalops": {
+                            "Parascalops breweri": "Taupe à queue velue"
+                        },
+                        "Condylura": {
+                            "Parascalops cristata": "Condylure à nez étoilé"
+                        }
+                    }
+                },
+                "Chiroptères": {
+                    "Vespertilionidés": {
+                        "Myotis": {
+                            "Myotis lucifugus": "Vespertilion brun",
+                            "Myotis septentrionalis": "Vespertilion nordique",
+                            "Myotis leibii": "Vespertilion pygmée de l'Est"
+                        },
+                        "Perimyotis": {
+                            "Perimyotis subflavus": "Pipistrelle de l'Est"
+                        },
+                        "Lasionycteris": {
+                            "Lasionycteris noctivagans": "Chauve-souris argentée"
+                        },
+                        "Lasiurus": {
+                            "Lasiurus borealis": "Chauve-souris rousse",
+                            "Lasiurus cinereus": "Chauve-souris cendrée"
+                        },
+                        "Eptesicus": {
+                            "Eptesicus fuscus": "Sérotine brune"
+                        }
+                    }
+                },
+                "Lagomorphes": {
+                    "Léporidés": {
+                        
+                    }
+                },
+                "Rongeurs": {
+                    "Sciuridés": {
+
+                    },
+                    "Castoridés": {
+
+                    },
+                    "Cricétidés": {
+
+                    },
+                    "Muridés": {
+
+                    },
+                    "Dipodidés": {
+
+                    },
+                    "Éréthizontidés": {
+
+                    }
+                },
+                "Carnivores": {
+                    "Canidés": {
+                        "Canis": {
+                            "Canis lupus": "Loup gris",
+                            "Canis latrans": "Coyote"
+                        },
+                        "Vulpes": {
+                            "Vulpes lagopus": "Renard arctique",
+                            "Vulpes vulpes": "Renard roux"
+                        },
+                        "Urocyon": {
+                            "Urocyon cinereoargenteus": "Renard gris"
+                        }
+                    },
+                    "Ursidés": {
+                        "Ursus": {
+                            "Ursus americanus": "Ours noir",
+                            "Ursus maritimus": "Ours blanc"
+                        }
+                    },
+                    "Procyonidés": {
+                        "Procyon": {
+                            "Procyon lotor": "Raton laveur"
+                        }
+                    },
+                    "Mustélidés": {
+                        "Martes": {
+                            "Martes americana": "Martre d'Amérique",
+                            "Martes pennanti": "Pékan"
+                        },
+                        "Mustela": {
+                            "Mustela erminea": "Hermine",
+                            "Mustela nivalis": "Belette pygmée",
+                            "Mustela frenata": "Belette à longue queue"
+                        },
+                        "Neovison": {
+                            "Neovison vison": "Vison d'Amérique"
+                        },
+                        "Gulo": {
+                            "Gulo gulo": "Carcajou"
+                        },
+                        "Lontra": {
+                            "Lontra canadensis": "Loutre de rivière"
+                        }
+                    },
+                    "Méphitidés": {
+                        "Mephitis": {
+                            "Mephitis mephitis": "Mouffette rayée"
+                        }
+                    },
+                    "Félidés": {
+                        "Puma": {
+                            "Puma concolar": "Cougar"
+                        },
+                        "Lynx": {
+                            "Lynx canadensis": "Lynx du Canada",
+                            "Lynx rufus": "Lynx roux"
+                        }
+                    }
+                },
+                "Artiodactyles": {
+                    "Cervidés": {
+
+                    },
+                    "Bovidés": {
+
+                    }
+                }
+            }
+        }
+    },
+    "Archées": {},
+    "Bactéries": {},
+    "Chromistes": {},
+    "Fungi": {},
+    "Plantes": {},
+    "Protozoiques": {}
+}
