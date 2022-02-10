@@ -283,7 +283,7 @@ border: 3px solid #ffffff;
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
-    border-top: solid black 1px;
+    /* border-top: solid black 1px; */
 }
 
 .conteneur > div > div > h3{
