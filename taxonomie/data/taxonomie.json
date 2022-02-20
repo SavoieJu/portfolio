@@ -550,6 +550,39 @@
                             }
                         }
                     }
+                },
+                "Magnoliopsida": {
+                    "Sapindales": {
+                        "Sapindacées": {
+                            "Acer": {
+                                "Acer saccharum": "Érable à sucre",
+                                "Acer rubrum": "Érable rouge",
+                                "Acer pensylvanicum": "Érable de Pennsylvanie",
+                                "Acer spicatum": "Érable à épis",
+                                "Acer saccharinum": "Érable argenté",
+                                "Acer nigrum": "Érable noir"
+                            }
+                        }
+                    },
+                    "Lamiales": {
+                        "Oléacées": {
+                            "Fraxinus americana": "Fêrne blanc",
+                            "Fraxinus pennsylvanica": "Fêrne rouge",
+                            "Fraxinus nigra": "Fêrne noir"
+                        }
+                    },
+                    "Fagales": {
+
+                    },
+                    "Rosales": {
+
+                    },
+                    "Malpighiales": {
+
+                    },
+                    "Malvales": {
+
+                    }
                 }
             }
         }
