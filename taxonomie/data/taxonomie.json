@@ -566,9 +566,12 @@
                     },
                     "Lamiales": {
                         "Oléacées": {
-                            "Fraxinus americana": "Fêrne blanc",
-                            "Fraxinus pennsylvanica": "Fêrne rouge",
-                            "Fraxinus nigra": "Fêrne noir"
+                            "Fraxinus": {
+                                "Fraxinus americana": "Fêrne blanc",
+                                "Fraxinus pennsylvanica": "Fêrne rouge",
+                                "Fraxinus nigra": "Fêrne noir"
+                            }
+                            
                         }
                     }
                 }
