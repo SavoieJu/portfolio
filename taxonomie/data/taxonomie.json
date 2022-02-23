@@ -573,6 +573,36 @@
                             }
                             
                         }
+                    },
+                    "Fagales": {
+                        "Bétulacées": {
+                            "Betula": {
+                                "Betula papyrifera": "Bouleau à papier",
+                                "Betula alleghaniensis": "Bouleau jaune"
+                            },
+                            "Alnus": {
+                                "Alnus incana": "Aulne rugeux"
+                            },
+                            "Corylus": {
+                                "Corylus cornuta": "Noisetier à long bec"
+                            },
+                            "Ostrya": {
+                                "Ostrya virginiana": "Ostryer de Virginie"
+                            }
+                        },
+                        "Fagacées": {
+                            "Fagus": {
+                                "Fagus grandifolia": "Hêtre à grandes feuilles"
+                            },
+                            "Quercus": {
+                                "Quercus rubra": "Chêne rouge"
+                            }
+                        },
+                        "Juglandacées": {
+                            "Juglans": {
+                                "Juglans cinerea": "Noyer cendré"
+                            }
+                        }
                     }
                 }
             }
