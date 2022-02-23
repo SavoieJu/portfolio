@@ -1,0 +1,592 @@
+{
+    "H": {
+        "z": 1,
+        "nom": "Hydrogène",  
+        "mm": 1.00794
+    },
+    "He": {
+        "z": 2,
+        "nom": "Hélium",
+        "mm": 4.002602
+    },
+    "Li": {
+        "z": 3,
+        "nom": "Lithium",
+        "mm": 6.941
+    },
+    "Be": {
+        "z": 4,
+        "nom": "Béryllium",
+        "mm": 9.012182
+    },
+    "B": {
+        "z": 5,
+        "nom": "Bore",
+        "mm": 10.811
+    },
+    "C": {
+        "z": 6,
+        "nom": "Carbone",
+        "mm": 12.011
+    },
+    "N": {
+        "z": 7,
+        "nom": "Azote",
+        "mm": 14.00674
+    },
+    "O": {
+        "z": 8,
+        "nom": "Oxygène",
+        "mm": 15.9994
+    },
+    "F": {
+        "z": 9,
+        "nom": "Fluor",
+        "mm": 18.9984032
+    },
+    "Ne": {
+        "z": 10,
+        "nom": "Néon",
+        "mm": 20.1797
+    },
+    "Na": {
+        "z": 11,
+        "nom": "Sodium",
+        "mm": 22.989768
+    },
+    "Mg": {
+        "z": 12,
+        "nom": "Magnésium",
+        "mm": 24.305
+    },
+    "Al": {
+        "z": 13,
+        "nom": "Aluminium",
+        "mm": 26.981539
+    },
+    "Si": {
+        "z": 14,
+        "nom": "Silicium",
+        "mm": 28.0855
+    },
+    "P": {
+        "z": 15,
+        "nom": "Phosphore",
+        "mm": 30.973762
+    },
+    "S": {
+        "z": 16,
+        "nom": "Soufre",
+        "mm": 32.066
+    },
+    "Cl": {
+        "z": 17,
+        "nom": "Chlore",
+        "mm": 35.4527
+    },
+    "Ar": {
+        "z": 18,
+        "nom": "Argon",
+        "mm": 39.948
+    },
+    "K": {
+        "z": 19,
+        "nom": "Potassium",
+        "mm": 39.0983
+    },
+    "Ca": {
+        "z": 20,
+        "nom": "Calcium",
+        "mm": 40.078
+    },
+    "Sc": {
+        "z": 21,
+        "nom": "Scandium",
+        "mm": 44.95591
+    },
+    "Ti": {
+        "z": 22,
+        "nom": "Titane",
+        "mm": 47.88
+    },
+    "V": {
+        "z": 23,
+        "nom": "Vanadium",
+        "mm": 50.9415
+    },
+    "Cr": {
+        "z": 24,
+        "nom": "Chrome",
+        "mm": 51.9961
+    },
+    "Mn": {
+        "z": 25,
+        "nom": "Manganèse",
+        "mm": 54.93805
+    },
+    "Fe": {
+        "z": 26,
+        "nom": "Fer",
+        "mm": 55.847
+    },
+    "Co": {
+        "z": 27,
+        "nom": "Cobalt",
+        "mm": 58.9332
+    },
+    "Ni": {
+        "z": 28,
+        "nom": "Nickel",
+        "mm": 58.69
+    },
+    "Cu": {
+        "z": 29,
+        "nom": "Cuivre",
+        "mm": 63.546
+    },
+    "Zn": {
+        "z": 30,
+        "nom": "Zinc",
+        "mm": 65.39
+    },
+    "Ga": {
+        "z": 31,
+        "nom": "Gallium",
+        "mm": 69.723
+    },
+    "Ge": {
+        "z": 32,
+        "nom": "Germanium",
+        "mm": 72.61
+    },
+    "As": {
+        "z": 33,
+        "nom": "Arsenic",
+        "mm": 74.92159
+    },
+    "Se": {
+        "z": 34,
+        "nom": "Sélénium",
+        "mm": 38.96
+    },
+    "Br": {
+        "z": 35,
+        "nom": "Brome",
+        "mm": 79.904
+    },
+    "Kr": {
+        "z": 36,
+        "nom": "Krypton",
+        "mm": 83.8
+    },
+    "Rb": {
+        "z": 37,
+        "nom": "Rubidium",
+        "mm": 85.4678
+    },
+    "Sr": {
+        "z": 38,
+        "nom": "Strontium",
+        "mm": 87.62
+    },
+    "Y": {
+        "z": 39,
+        "nom": "Yttrium",
+        "mm": 88.90585
+    },
+    "Zr": {
+        "z": 40,
+        "nom": "Zirconium",
+        "mm": 91.224
+    },
+    "Nb": {
+        "z": 41,
+        "nom": "Niobium",
+        "mm": 92.90638
+    },
+    "Mo": {
+        "z": 42,
+        "nom": "Molybdène",
+        "mm": 95.94
+    },
+    "Tc": {
+        "z": 43,
+        "nom": "Technétium",
+        "mm": 98.9063
+    },
+    "Ru": {
+        "z": 44,
+        "nom": "Ruthénium",
+        "mm": 101.07
+    },
+    "Rh": {
+        "z": 45,
+        "nom": "Rhodium",
+        "mm": 102.9055
+    },
+    "Pd": {
+        "z": 46,
+        "nom": "Palladium",
+        "mm": 106.42
+    },
+    "Ag": {
+        "z": 47,
+        "nom": "Argent",
+        "mm": 107.8682
+    },
+    "Cd": {
+        "z": 48,
+        "nom": "Cadmium",
+        "mm": 112.411
+    },
+    "In": {
+        "z": 49,
+        "nom": "Indium",
+        "mm": 114.82
+    },
+    "Sn": {
+        "z": 50,
+        "nom": "Étain",
+        "mm": 118.71
+    },
+    "Sb": {
+        "z": 51,
+        "nom": "Antimoine",
+        "mm": 121.75
+    },
+    "Te": {
+        "z": 52,
+        "nom": "Tellure",
+        "mm": 127.6
+    },
+    "I": {
+        "z": 53,
+        "nom": "Iode",
+        "mm": 126.90447
+    },
+    "Xe": {
+        "z": 54,
+        "nom": "Xénon",
+        "mm": 131.29
+    },
+    "Cs": {
+        "z": 55,
+        "nom": "Césium",
+        "mm": 132.90543
+    },
+    "Ba": {
+        "z": 56,
+        "nom": "Baryum",
+        "mm": 137.327
+    },
+    "La": {
+        "z": 57,
+        "nom": "Lanthane",
+        "mm": 138.9055
+    },
+    "Ce": {
+        "z": 58,
+        "nom": "Cérium",
+        "mm": 140.115
+    },
+    "Pr": {
+        "z": 59,
+        "nom": "Praséodyme",
+        "mm": 140.90765
+    },
+    "Nd": {
+        "z": 60,
+        "nom": "Néodyme",
+        "mm": 144.24
+    },
+    "Pm": {
+        "z": 61,
+        "nom": "Prométhium",
+        "mm": 146.9151
+    },
+    "Sm": {
+        "z": 62,
+        "nom": "Samarium",
+        "mm": 150.36
+    },
+    "Eu": {
+        "z": 63,
+        "nom": "Europium",
+        "mm": 151.965
+    },
+    "Gd": {
+        "z": 64,
+        "nom": "Gadolinium",
+        "mm": 157.25
+    },
+	"Tb": {
+        "z": 65,
+        "nom": "Terbium",
+        "mm": 158.92534
+},
+    "Dy": {
+        "z": 66,
+        "nom": "Dysprosium",
+        "mm": 162.5
+    },
+    "Ho": {
+        "z": 67,
+        "nom": "Holmium",
+        "mm": 164.93032
+    },
+    "Er": {
+        "z": 68,
+        "nom": "Erbium",
+        "mm": 167.26
+    },
+    "Tm": {
+        "z": 69,
+        "nom": "Thulium",
+        "mm": 168.93421
+    },
+    "Yb": {
+        "z": 70,
+        "nom": "Ytterbium",
+        "mm": 173.04
+    },
+    "Lu": {
+        "z": 71,
+        "nom": "Lutécium",
+        "mm": 174.967
+    },
+    "Hf": {
+        "z": 72,
+        "nom": "Hafnium",
+        "mm": 178.49
+    },
+    "Ta": {
+        "z": 73,
+        "nom": "Tantale",
+        "mm": 180.9479
+    },
+    "W": {
+        "z": 74,
+        "nom": "Tungstène",
+        "mm": 183.85
+    },
+    "Re": {
+        "z": 75,
+        "nom": "Rhénium",
+        "mm": 186.207
+    },
+    "Os": {
+        "z": 76,
+        "nom": "Osmium",
+        "mm": 190.2
+    },
+    "Ir": {
+        "z": 77,
+        "nom": "Iridium",
+        "mm": 192.22
+    },
+    "Pt": {
+        "z": 78,
+        "nom": "Platine",
+        "mm": 195.08
+    },
+    "Au": {
+        "z": 79,
+        "nom": "Au",
+        "mm": 196.96654
+},
+    "Hg": {
+        "z": 80,
+        "nom": "Mercure",
+        "mm": 200.59
+    },
+    "Tl": {
+        "z": 81,
+        "nom": "Thallium",
+        "mm": 204.3833
+    },
+    "Pb": {
+        "z": 82,
+        "nom": "Plomb",
+        "mm": 207.2
+    },
+    "Bi": {
+        "z": 83,
+        "nom": "Bismuth",
+        "mm": 208.98037
+    },
+    "Po": {
+        "z": 84,
+        "nom": "Polonium",
+        "mm": 208.9824
+    },
+    "At": {
+        "z": 85,
+        "nom": "Astate",
+        "mm": 209.9871
+    },
+    "Rn": {
+        "z": 86,
+        "nom": "Radon",
+        "mm": 222.0176
+    },
+    "Fr": {
+        "z": 87,
+        "nom": "Francium",
+        "mm": 223.0197
+    },
+    "Ra": {
+        "z": 88,
+        "nom": "Radium",
+        "mm": 226.0254
+    },
+    "Ac": {
+        "z": 89,
+        "nom": "Actinium",
+        "mm": 227.0278
+    },
+    "Th": {
+        "z": 90,
+        "nom": "Thorium",
+        "mm": 232.0381
+    },
+    "Pa": {
+        "z": 91,
+        "nom": "Protactinium",
+        "mm": 231.0359
+    },
+    "U": {
+        "z": 92,
+        "nom": "Uranium",
+        "mm": 238.0289
+    },
+    "Np": {
+        "z": 93,
+        "nom": "Neptunium",
+        "mm": 237.0482
+    },
+    "Pu": {
+        "z": 94,
+        "nom": "Plutonium",
+        "mm": 244.0642
+    },
+    "Am": {
+        "z": 95,
+        "nom": "Américium",
+        "mm": 243.0614
+    },
+    "Cm": {
+        "z": 96,
+        "nom": "Curium",
+        "mm": 247.0703
+    },
+    "Bk": {
+        "z": 97,
+        "nom": "Berkélium",
+        "mm": 247.0703
+    },
+    "Cf": {
+        "z": 98,
+        "nom": "Californium",
+        "mm": 251.0796
+    },
+    "Es": {
+        "z": 99,
+        "nom": "Einsteinium",
+        "mm": 252.0829
+    },
+    "Fm": {
+        "z": 100,
+        "nom": "Fermium",
+        "mm": 257.0951
+    },
+    "Md": {
+        "z": 101,
+        "nom": "Mendélévium",
+        "mm": 258.0986
+    },
+    "No": {
+        "z": 102,
+        "nom": "Nobélium",
+        "mm": 259.1009
+    },
+    "Lr": {
+        "z": 103,
+        "nom": "Lawrencium",
+        "mm": 260.1053
+    },
+    "Rf": {
+        "z": 104,
+        "nom": "Rutherfordium",
+        "mm": 261.1087
+    },
+    "Db": {
+        "z": 105,
+        "nom": "Dubnium",
+        "mm": 262.1138
+    },
+    "Sg": {
+        "z": 106,
+        "nom": "Seaborgium",
+        "mm": 263.118
+    },
+    "Bh": {
+        "z": 107,
+        "nom": "Bohrium",
+        "mm": 262.122
+    },
+    "Hs": {
+        "z": 108,
+        "nom": "Hassium",
+        "mm": 265
+    },
+    "Mt": {
+        "z": 109,
+        "nom": "Meitnérium",
+        "mm": 266
+    },
+    "Ds": {
+        "z": 110,
+        "nom": "Darmstadtium",
+        "mm": 269
+    },
+    "Rg": {
+        "z": 111,
+        "nom": "Roentgenium",
+        "mm": 272
+    },
+    "Cn": {
+        "z": 112,
+        "nom": "Copernicium",
+        "mm": 277
+    },
+    "Nh": {
+        "z": 113,
+        "nom": "Nihonium",
+        "mm": 286
+    },
+    "Fl": {
+        "z": 114,
+        "nom": "Flérovium",
+        "mm": 289
+    },
+    "Mc": {
+        "z": 115,
+        "nom": "Moscovium",
+        "mm": 289
+    },
+    "Lv": {
+        "z": 116,
+        "nom": "Livermorium",
+        "mm": 293
+    },
+    "Ts": {
+        "z": 117,
+        "nom": "Tennesse",
+        "mm": 294
+    },
+    "Og": {
+        "z": 118,
+        "nom": "Oganesson",
+        "mm": 294
+    }
+}
