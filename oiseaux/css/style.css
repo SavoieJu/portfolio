@@ -159,69 +159,7 @@ h3 {
     text-decoration: underline;
 }
 
-@media screen and (max-width: 800px) {
-    
-    h1 {
-        font-size: 2em;
-    }
-
-    section {
-        margin-top: 0vh;
-        height: 80%;
-    }
-
-    .principale {
-        width: 90%;
-    }
-
-    
-    h3 {
-        font-size: 1em;
-    }
-    
-    h4 {
-        font-size: 0.8em;
-        font-weight: 500;
-    }
-    
-
-    .choix {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    header {
-      position: -webkit-sticky;
-      position: sticky;
-      -webkit-box-orient: vertical;
-      -webkit-box-direction: normal;
-          -ms-flex-direction: column;
-              flex-direction: column;
-      -webkit-box-pack: center;
-          -ms-flex-pack: center;
-              justify-content: center;
-    }
-    header h1 {
-      text-align: center;
-      margin: 10px 0;
-      padding: 0;
-      -ms-flex-item-align: center;
-          -ms-grid-row-align: center;
-          align-self: center;
-    }
-    header nav {
-      padding: 0 20px;
-    }
-    header nav a {
-    height: 32px;
-    font-size: 1.5em;
-    }
-  }
-
-
-
-
-
+/* ------------------------------------------------------------------- */
 
 .conteneur {
     width: 80%;
@@ -316,10 +254,6 @@ h3 {
     height: 38px;
 }
 
-#timeLeft {
-    
-}
-
 .searchBox {
     width: 100%;
     display: flex;
@@ -386,4 +320,99 @@ h3 {
 
 .selected {
     border: #070707 1px solid;
+}
+
+
+
+
+
+
+@media screen and (max-width: 800px) {
+    
+    h1 {
+        font-size: 2em;
+    }
+
+    section {
+        margin-top: 0vh;
+        height: 80%;
+    }
+
+    .principale {
+        width: 90%;
+    }
+
+    
+    h3 {
+        font-size: 1em;
+    }
+    
+    h4 {
+        font-size: 0.8em;
+        font-weight: 500;
+    }
+    
+
+    .choix {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header {
+      position: -webkit-sticky;
+      position: sticky;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+    }
+    header h1 {
+      text-align: center;
+      margin: 10px 0;
+      padding: 0;
+      -ms-flex-item-align: center;
+          -ms-grid-row-align: center;
+          align-self: center;
+    }
+    header nav {
+      padding: 0 20px;
+    }
+    header nav a {
+    height: 32px;
+    font-size: 1.5em;
+    }
+
+    .searchBox > input {
+        width: 80%;
+    }
+
+    .conteneurListe > ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    button#play {
+        margin-left: 0px !important;
+    }
+
+    .audioControls {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .audioControls > #slider {
+        /* position: absolute; */
+        margin-top: -38px;
+        grid-area: mida;
+        width: 65%;
+        transform: scaleY(0%);
+        transform-origin: top;
+    }
+
+    .audioControls > #slider:hover{
+        transform: scaleY(100%);
+    }
 }
