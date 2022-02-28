@@ -217,4 +217,31 @@ h3 {
         font-size: 2em !important;
         margin-top: 0;
     }
+
+    header {
+        position: -webkit-sticky;
+        position: sticky;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+      }
+      header h1 {
+        text-align: center;
+        margin: 10px 0;
+        padding: 0;
+        -ms-flex-item-align: center;
+            -ms-grid-row-align: center;
+            align-self: center;
+      }
+      header nav {
+        padding: 0 20px;
+      }
+      header nav a {
+      height: 32px;
+      font-size: 1.5em;
+      }
 }
