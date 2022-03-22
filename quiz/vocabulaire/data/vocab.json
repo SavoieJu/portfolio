@@ -1,0 +1,172 @@
+{
+    "liste": [
+        {
+            "index": 0,
+            "position": 0,
+            "mot": "Eucaryotes",
+            "definition": "Organismes, unicellulaires ou multicellulaires, qui se caractérisent par la présence d'un noyau"
+        },
+        {
+            "index": 1,
+            "position": 0,
+            "mot": "Hétérotrophe",
+            "definition": "Qui utilise pour se nourrir les matières organiques constituant ou ayant constitué d'autres organismes"
+        },
+        {
+            "index": 2,
+            "position": 0,
+            "mot": "Diploïde",
+            "definition": "Une cellule qui contient deux copies des chromosomes (ex: suite à la fécondation)"
+        },
+        {
+            "index": 3,
+            "position": 0,
+            "mot": "Haploïde",
+            "definition": "Une cellule qui contient une seule copie des chromosomes"
+        },
+        {
+            "index": 4,
+            "position": 0,
+            "mot": "Segmentation",
+            "definition": "Une série de division cellulaires miotiques (ex: du zygote au stade à huit cellules et ensuite au blastula)"
+        },
+        {
+            "index": 5,
+            "position": 0,
+            "mot": "Blastula",
+            "definition": "Ressemble généralement à une sphère creuse constitué de cellule"
+        },
+        {
+            "index": 6,
+            "position": 0,
+            "mot": "Gastrulation",
+            "definition": "Processus par lequel l'une des extrémités de l'embryon s'invagine formant une cavité (blastocoele)"
+        },
+        {
+            "index": 7,
+            "position": 0,
+            "mot": "Gastrula",
+            "definition": "Stade du dévellopement associer à la gastrulation"
+        },
+        {
+            "index": 8,
+            "position": 0,
+            "mot": "Larve",
+            "definition": "Forme sexuellement immature. Morphologie, besoins nutritifs et habitat peuvent être différent de l'adulte"
+        },
+        {
+            "index": 9,
+            "position": 0,
+            "mot": "Blastopore",
+            "definition": "Orifice de la gastrula des embryons"
+        },
+        {
+            "index": 10,
+            "position": 0,
+            "mot": "Protostomiens",
+            "definition": "Organisme ou lequel le blastopore devient la bouche (ex: annélides, mollusques, arthropodes)"
+        },
+        {
+            "index": 11,
+            "position": 0,
+            "mot": "Deutérostomiens",
+            "definition": "Organisme ou lequel le blastopore devient l'anus (ex: échinodermes, vertébrés)"
+        },
+        {
+            "index": 12,
+            "position": 0,
+            "mot": "Ectoderme",
+            "definition": "Feuillet qui recouvre l'embryon, devient la couche externe de l'animal"
+        },
+        {
+            "index": 13,
+            "position": 0,
+            "mot": "Endoderme",
+            "definition": "Feuillet embryonnaire profond, tapisse l'archentéron. Donne naissance notamment au au revêtement intérieur du tube digestif et des organes comme le foie et les poumons des vertébrés"
+        },
+        {
+            "index": 14,
+            "position": 0,
+            "mot": "Mésoderme",
+            "definition": "Feuillet embryonnaire qui remplie presque tout l'espace se trouvant entre l'ectoderme et l'endoderme, donnant naissance aux muscles et autres organes situé entre le tube digestif et le revêtement externe de l'animal"
+        },
+        {
+            "index": 15,
+            "position": 0,
+            "mot": "Diploblastique",
+            "definition": "Animaux  qui ne possède que les deux feuillets embryonnaires suivant: ectoderme et endoderme"
+        },
+        {
+            "index": 16,
+            "position": 0,
+            "mot": "Tripoblastique",
+            "definition": "Animaux  qui possède les trois feuillets embryonnaires suivant: ectoderme, endoderme et mésoderme"
+        },
+        {
+            "index": 17,
+            "position": 0,
+            "mot": "Coelome",
+            "definition": "Cavité corporelle rempli de liquide ou d'air entre le tube digestif et l'enveloppe corporelle que la plupart des animaux tripoblastique possède"
+        },
+        {
+            "index": 18,
+            "position": 0,
+            "mot": "Coelomates",
+            "definition": "Animaux possédant un coelome"
+        },
+        {
+            "index": 19,
+            "position": 0,
+            "mot": "Péritoine",
+            "definition": "Membrane formé des couches internes et externes du tissus qui tapisse le coelome"
+        },
+        {
+            "index": 20,
+            "position": 0,
+            "mot": "Notocorde",
+            "definition": "Tige flexible longitudinale situé entre le tube digestif et le tube neurale, que tous les embryons de tous les cordés ainsi que certains cordés adulte possèdent"
+        },
+        {
+            "index": 21,
+            "position": 0,
+            "mot": "Vertébré",
+            "definition": "Fesant partie de l'embranchement des cordés, bilatérien appartenant au clade des deutérostomiens"
+        },
+        {
+            "index": 22,
+            "position": 0,
+            "mot": "Tube neural",
+            "definition": "Système nerveux primitif des embryons des chordés"
+        },
+        {
+            "index": 23,
+            "position": 0,
+            "mot": "Phylogénèse",
+            "definition": "Reconstitution de l'évolution des organismes vivants en un arbre représentant les ancêtres communs (arbre phylogénétique)"
+        },
+        {
+            "index": 24,
+            "position": 0,
+            "mot": "Ovipare",
+            "definition": "Femelles pondent des oeufs qui vont éclore en dehors de leur corps"
+        },
+        {
+            "index": 25,
+            "position": 0,
+            "mot": "Ovovivipare",
+            "definition": "Femelles gardent les oeufs fécondés dans l'oviducte, l'oeufs éclot dans l'utérus"
+        },
+        {
+            "index": 26,
+            "position": 0,
+            "mot": "Vivipare",
+            "definition": "Embryons se développe dans l'utérus jusqu'à la naissance"
+        },
+        {
+            "index": 27,
+            "position": 0,
+            "mot": "Ontogenèse",
+            "definition": "Développement de l'individu, depuis l'œuf fécondé jusqu'à l'état adulte"
+        }
+    ]
+}

@@ -1,0 +1,234 @@
+html {
+    font-family: 'Alata', sans-serif;
+    color: #070707;
+    max-height: 100vh;
+    max-width: 100vw;
+}
+
+header {
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    position: fixed;
+    top: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 100vw;
+    height: 20vh;
+    margin: 0 auto;
+    z-index: 100000;
+    -webkit-transition: opacity 0.4s ease;
+    transition: opacity 0.4s ease;
+  }
+  
+  header h1 {
+    margin-left: 40px;
+    padding: 5px 15px;
+    font-size: 3em;
+    font-weight: bold;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+  }
+  
+  header nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -ms-flex-preferred-size: 40%;
+        flex-basis: 40%;
+    height: 140px;
+    padding-right: 40px;
+  }
+
+  body, h1, h2, h3, h4, h5, h6, a {
+    font-family: 'Alata', sans-serif;
+}
+  
+  header nav a {
+    text-align: center;
+    height: 54px;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    padding: 5px 15px;
+  }
+
+  header nav a {
+    font-size: 2.4em;
+    text-decoration: none;
+    color: #070707;
+    -webkit-text-stroke-width: 1px;
+  }
+  
+  header nav a:hover {
+    background-color: #070707;
+    color: #fafafa;
+  }
+  
+  @media screen and (max-width: 800px) {
+    header {
+      position: -webkit-sticky;
+      position: sticky;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+    }
+    header h1 {
+      text-align: center;
+      margin: 10px 0;
+      padding: 0;
+      -ms-flex-item-align: center;
+          -ms-grid-row-align: center;
+          align-self: center;
+    }
+    header nav {
+      padding: 0 20px;
+    }
+    header nav a {
+      height: 32px;
+    }
+  }
+
+::selection {
+    background: aqua;
+}
+
+section {
+    margin-top: 20vh;
+    width: 100vw;
+    height: 80vh;
+}
+
+section > a {
+    text-align: center;
+    text-decoration: none;
+    color: #070707;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+/* ------------------------------------------------------------------- */
+
+.conteneur {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+}
+
+.info_conteneur {
+    display: flex;
+    justify-content: space-between;
+}
+
+.module_quiz_conteneur {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.module_quiz_conteneur > div {
+    text-align: left;
+}
+
+.input_conteneur > ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.input_conteneur > ul > li{
+    padding: 3px 0;
+    font-size: 1.1em;
+    border: transparent 2px solid;
+}
+
+
+.input_conteneur > ul > li::before{
+    content: "\279C";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: lightgrey; /* Change the color */
+    font-weight: bold; 
+    display: inline-block;
+    width: 1.5em;
+    margin-left: -1.5em;
+    font-size: 1.1em;
+}
+
+.input_conteneur > ul > li:hover::before{
+    color: black
+}
+
+.input_conteneur > ul > li:hover{
+    cursor: pointer;
+}
+
+.input_conteneur #input_text {
+    font-size: 1.4em;
+    padding: 3px;
+    width: 100%;
+}
+
+.controle_conteneur {
+    display: flex;
+    justify-content: right;
+    justify-items: center;
+}
+
+.controle_conteneur h6 {
+    font-size: 2em;
+    margin: 0;
+    padding: 5px 10px;
+    text-align: center;
+    cursor: pointer;
+    border: #070707 1px solid;
+}
+
+.controle_conteneur h6:hover {
+    color: #fafafa;
+    background-color: #070707;
+}
+
+.controle_conteneur h4 {
+    opacity: 0;
+    transition: opacity 1s;
+    margin: auto;
+    margin-right: 5px;
+    padding: 0;
+}
+
+#prompt {
+    font-size: 1.4em;
+    text-decoration: underline;
+} 
+
+.hidden {
+    display: none;
+}
+
+.correct {
+    border: green 2px solid !important;
+}
+
+.mauvais {
+    border: red 2px solid !important;
+}

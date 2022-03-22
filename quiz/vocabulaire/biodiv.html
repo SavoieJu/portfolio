@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-0KM8XB77H3"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-0KM8XB77H3');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Quiz sur les différentes parties externe d'un oiseaux.">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="apple-touch-icon" sizes="57x57" href="../../images/icon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="../../images/icon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../../images/icon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="../../images/icon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="../../images/icon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="../../images/icon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../../images/icon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../../images/icon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../../images/icon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="../../images/icon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../images/icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="../../images/icon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../images/icon/favicon-16x16.png">
+    <link rel="manifest" href="../../images/icon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="../../images/icon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Alata&display=swap" rel="stylesheet">
+    <title>Quiz - Vocabulaire Biodiv</title>
+</head>
+<body>
+    <header>
+        <h1 class="title">savoie.earth</h1>
+        <nav class="navigation_menu">
+            <a href="../../../index.html">accueil</a>
+            <a href="../../../index.html#projets">projets</a>
+            <a href="../../../index.html#contact">contact</a>
+        </nav>
+    </header>
+    <section>
+        <a href="./biodiv.html"><h1>Quiz - Vocabulaire Biodiv II</h1></a>
+        <div class="conteneur">
+            <div class="info_conteneur">
+                <div class="numero_question_conteneur">
+                    <span>Question:</span>
+                    <span id="total">1</span>
+                </div>
+                <div class="pointage_conteneur">
+                    <span>Points:</span>
+                    <span id="pointage">0</span>
+                    <span>/</span>
+                    <span id="total_possible">0</span>
+                </div>
+            </div>
+            <div class="module_quiz_conteneur">
+                <div class="question_conteneur">
+                    <h3 id="question">Associer la définition au mot suivant:</h3>
+                    <span id="prompt">Le mot</span>
+                </div>
+                <div class="reponse_conteneur">
+                    <h3 id="type_input">Choix de réponse</h3>
+                    <div class="input_conteneur">
+                        <ul>
+                            <li>une cellule qui contient deux copies des chromosomes (ex: suite à la fécondation)</li>
+                            <li>ressemble généralement à une sphère creuse constitué de cellule</li>
+                            <li>organisme ou lequel le blastopore devient l'anus (ex: échinodermes, vertébrés)</li>
+                            <li>animaux possédant un coelome</li>
+                        </ul>
+                        <!-- ou -->
+                        <!-- <input id="input_text" type="text" placeholder="Entrez votre réponse ici"> -->
+                    </div>
+                </div>
+            </div>       
+            <div class="controle_conteneur">
+                <h4 id="erreur" class="hidden">Veuillez répondre à la question avant de continuer.</h4>
+                <h6 id="bouton_suivant" onclick="suivant()">Suivant</h6>
+            </div> 
+        </div>
+    </section>
+    
+    <script src="js/main.js"></script>
+</body>
+</html>
