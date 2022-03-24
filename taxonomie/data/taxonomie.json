@@ -603,6 +603,43 @@
                                 "Juglans cinerea": "Noyer cendré"
                             }
                         }
+                    },
+                    "Rosales": {
+                        "Ulmacées": {
+                            "Ulmus": {
+                                "Ulmus americana": "Orme d'Amérique"
+                            }
+                        },
+                        "Rosacées": {
+                            "Prunus": {
+                                "Prunus virginiana": "Cerisier de virginie",
+                                "Prunus pensylvanica": "Cerisier de pennsylvanie"
+                            },
+                            "Amelanchier": {
+                                "Amelanchier canadensis": "Amélanchier du Canada"
+                            },
+                            "Crataegus": {
+                                "Crataegus pennsylvanica": "Aubépine de Pennsylvanie"
+                            }
+                        }
+                    },
+                    "Malpighiales": {
+                        "Salicaceae": {
+                            "Populus": {
+                                "Populus balsamifera": "Peuplier beaumier",
+                                "Populus tremuloides": "Peuplier faux-tremble"
+                            },
+                            "Salix": {
+                                "Salix babylonica": "Saule pleureur"
+                            }
+                        }
+                    },
+                    "Malvales": {
+                        "Malvacées": {
+                            "Tilia": {
+                                "Tilia americana": "Tilleul d'Amérique"
+                            }
+                        }
                     }
                 }
             }
