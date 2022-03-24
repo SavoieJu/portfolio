@@ -1,0 +1,11 @@
+body {
+    font-family: $cg;
+    font-weight: 400;
+    font-size: 1.15em;
+}
+
+@media screen and (max-width: 864px) {
+    body {
+        
+    }
+}
