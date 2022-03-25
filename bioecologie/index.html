@@ -7,28 +7,122 @@
         <title>L'encyclopédie de Bioécologie</title>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Poppins&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
         <script src="https://kit.fontawesome.com/ae1caa4d91.js" crossorigin="anonymous"></script>
     </head>
     <body>
         <header>
-            <div class="titre">
-                <h1>L'encyclopédie de Bioécologie</h1>
+            <div class="conteneur_mobile">
+                <div class="titre">
+                    <h1>L'encyclopédie de Bioécologie</h1>
+                </div>
+                <input onclick="basculerMenu()" id="menu_controle" type="checkbox">
+                <i id="menu_hamburger-icon" class="fa-solid fa-bars"></i>
             </div>
-            <i id="menu_hamburger-icon" class="fa-solid fa-bars"></i>
             <div class="header_navigation">
-                <h3>Biodiversité</h3>
-                <h3>Chimie</h3>
-                <h3>Env. Physique</h3>
-                <h3>Botanique</h3>
+                <h3 onclick="choixMenu('biodiv')">Biodiversité</h3>
+                <h3 onclick="choixMenu('botani')">Botanique</h3>
+                <h3 onclick="choixMenu('chimie')">Chimie</h3>
+                <h3 onclick="choixMenu('envphy')">Env. Physique</h3>
             </div>
         </header>
         <nav>
-            
+            <div class="titre_table">
+                <h3>Tables des matières</h3>
+            </div>
+            <details data-cours="biodiv">
+                <summary>Biodivertsité</summary>
+                <details>
+                    <summary>Biodivertsité I</summary>
+                </details>
+                <details>
+                    <summary>Biodivertsité II</summary>
+                </details>
+                <details>
+                    <summary>Biodivertsité III</summary>
+                </details>
+                <h4>Ressources</h4>
+            </details>
+            <details data-cours="botani">
+                <summary>Botanique</summary>
+                <details>
+                    <summary>Botanique I</summary>
+                </details>
+                <details>
+                    <summary>Botanique II</summary>
+                </details>
+                <h4>Ressources</h4>
+            </details>
+            <details data-cours="chimie">
+                <summary>Chimie</summary>
+                <details>
+                    <summary>Travail de laboratoire</summary>
+                </details>
+                <details>
+                    <summary>Chimie de l'environnement</summary>
+                </details>
+                <details>
+                    <summary>Chimie du vivant</summary>
+                </details>
+                <h4>Ressources</h4>
+            </details>
+            <details data-cours="envphy">
+                <summary>Env. Physique</summary>
+                <details>
+                    <summary>Env. Physique I</summary>
+                </details>
+                <details>
+                    <summary>Env. Physique II </summary>
+                </details>
+                <details>
+                    <summary>Env. Physique III</summary>
+                </details>
+                <h4>Ressources</h4>
+            </details>
         </nav>
         <main>
-            
+            <div class="conteneur_information">
+                <div class="crumbs">
+                    <span class="crumb">Plantae</span>
+                    <span class="arrow"> > </span>
+                    <span class="crumb">Tracheophytae</span>
+                    <span class="arrow"> > </span>
+                    <span class="crumb">Magnolopsidae</span>
+                    <span class="arrow"> > </span>
+                    <span class="crumb">Fagales</span>
+                    <span class="arrow"> > </span>
+                    <span class="crumb">Betulacea</span>
+                    <span class="arrow"> > </span>
+                    <span class="crumb">Alnus</span>
+                    <span class="arrow"> > </span>
+                    <span class="crumb">Alnus incana</span>
+                </div>
+                <div class="nom_page">
+                    <h1>Aulne rugeux</h1>
+                    <h2>Alnus incana ssp. rugosa</h2>
+                    <h3>Speckled alder</h3>
+                </div>
+                <div class="info">
+                    <h2>Information</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus illum saepe commodi placeat excepturi sed ab repellendus ex maiores iure totam facilis asperiores dolores alias, porro iste impedit tempore facere.
+                    Obcaecati nulla aut iusto voluptas quia, maiores nisi assumenda fuga labore consectetur neque blanditiis laudantium consequatur. Est iure vitae odit iste amet earum voluptates veniam quis praesentium animi, sint blanditiis.
+                    Odio excepturi sunt reiciendis harum iste sint quis, pariatur voluptatem voluptate, enim, ab saepe molestias deserunt suscipit consectetur quia libero dolorum vero quos voluptates quam. Magni, voluptatibus molestias. Ipsam, doloribus?
+                    A non placeat nulla. Vitae, accusantium ipsa. Tenetur, excepturi? Est explicabo sapiente id harum in totam placeat, excepturi maiores aspernatur quasi amet repellat doloremque voluptate laudantium inventore nisi at et?
+                    Incidunt, sequi illum atque numquam fuga sapiente corrupti obcaecati blanditiis, maxime vero fugit aspernatur a dolores quisquam expedita cum odit? Dicta voluptatem beatae minus autem pariatur delectus esse quam libero.</p>
+                    <h2>Carte de répartition</h2>
+                    <div class="image">
+                        <img src="images/exemple_map.png" alt="exemple">
+                    </div>
+                </div>
+            </div>
+            <div class="conteneur_images">
+                <h2>Images</h2>
+                <div class="image">
+                    <img src="images/BRG_Alnus_incana_rugosa.gif" alt="exemple">
+                </div>
+            </div>
         </main>
+        <script src="js/header.js"></script>
     </body>
 </html>

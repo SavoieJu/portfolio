@@ -1,26 +1,15 @@
 header {
+    font-family: $pop;
     background-color: $vert;
     color: $blanc;
 
-    .header_navigation {
-
-        h3 {
-            cursor: pointer;
-        }
-        
+    .conteneur_mobile {
+        background-color: $vert;     
     }
 }
 
 @media screen and (max-width: 864px) {
     header {
-        .titre {
-            
-        }
-
-        i#menu_hamburger-icon {
-            
-        }
-
         .header_navigation {
             background-color: $vert;
         }

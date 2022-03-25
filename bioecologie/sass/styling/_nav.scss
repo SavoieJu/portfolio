@@ -1,9 +1,21 @@
 nav {
     background-color: $blanc;
+    border-right: $vertAccent 1px solid;
+    scrollbar-color: $vertAccent $blanc;
+        
+    &::-webkit-scrollbar-track {
+        background: $blanc;
+    }
+        
+    &::-webkit-scrollbar-thumb {
+        background-color: $vertAccent;
+        border: 3px solid $blanc;
+    }
 }
 
 @media screen and (max-width: 864px) {
     nav {
-        
+        border-right: none;
+        border-bottom: $vertAccent 1px solid;
     }
 }

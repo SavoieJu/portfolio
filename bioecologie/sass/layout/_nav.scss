@@ -1,9 +1,98 @@
 nav {
     grid-area: nav;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    min-width: 275px;
+    overflow-y: auto;
+    scrollbar-width: auto;
+
+    .titre_table {
+        padding-left: 20px;
+    }
+
+    &::-webkit-scrollbar {
+        width: 10px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+    }
+
+    details {
+        font-size: 1em;
+        margin-bottom: 10px;
+        cursor: pointer;
+        padding-left: 20px;
+
+        summary {
+            font-weight: 700;
+            list-style: none;
+            // margin: 5px 0;
+        }
+
+        & details {
+            margin-bottom: 0px;
+            padding-left: 10px;
+            list-style-type: disclosure-open;
+        }
+        & h4 {
+            font-size: 1em;
+            margin: 0;
+            font-weight: 400;
+            cursor: pointer;
+            padding-left: 15px;
+            margin: 5px 0;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+
+    summary {
+        padding: 5px;
+        &:hover {
+            color: $vertAccent;
+        }
+
+        &:hover::before {
+            content: "\276F";
+            position: static;
+            margin-left: -15px;
+            padding-right: 5.5px;
+        }
+    }
 }
 
 @media screen and (max-width: 864px) {
     nav {
-        
+        justify-content: center;
+        align-items: flex-end;
+        .titre_table {
+            
+            h3 {
+                width: 100%;
+                margin: 0;
+                display: flex;
+                align-items: flex-end;
+
+                &::after {
+                    content: '';
+                    position: absolute;
+                    width: 100%;
+                    transform: scaleX(0);
+                    height: 2px;
+                    // bottom: 0;
+                    // left: 0;
+                    background-color: #0087ca;
+                    transform-origin: bottom right;
+                    transition: transform 0.25s ease-out;
+                }
+                &:hover::after {
+                    transform: scaleX(1);
+                    transform-origin: bottom left;
+                  }
+            }
+        }
     }
 }
