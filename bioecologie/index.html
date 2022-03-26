@@ -11,7 +11,22 @@
         <link rel="stylesheet" href="css/style.css">
         <script src="https://kit.fontawesome.com/ae1caa4d91.js" crossorigin="anonymous"></script>
     </head>
-    <body>
+    <body class="">
+        <div class="visionneur hidden">
+            <div class="visionneur_fermer" onclick="toggleVisionneur()"></div>
+            <div class="visionneur_controles">
+                <div class="visionneur_controles_control_precedant" onclick="precedant()"></div>
+                <div class="visionneur_controles_control_suivant" onclick="suivant()"></div>
+            </div>
+            <div class="visionneur_images">
+                <div class="visionneur_images_conteneur">
+
+                </div>
+            </div>
+            <div class="visionneur_images_info">
+
+            </div>
+        </div>
         <header>
             <div class="conteneur_mobile">
                 <div class="titre">
@@ -104,25 +119,37 @@
                     <h3>Speckled alder</h3>
                 </div>
                 <div class="info">
-                    <h2>Information</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus illum saepe commodi placeat excepturi sed ab repellendus ex maiores iure totam facilis asperiores dolores alias, porro iste impedit tempore facere.
-                    Obcaecati nulla aut iusto voluptas quia, maiores nisi assumenda fuga labore consectetur neque blanditiis laudantium consequatur. Est iure vitae odit iste amet earum voluptates veniam quis praesentium animi, sint blanditiis.
-                    Odio excepturi sunt reiciendis harum iste sint quis, pariatur voluptatem voluptate, enim, ab saepe molestias deserunt suscipit consectetur quia libero dolorum vero quos voluptates quam. Magni, voluptatibus molestias. Ipsam, doloribus?
-                    A non placeat nulla. Vitae, accusantium ipsa. Tenetur, excepturi? Est explicabo sapiente id harum in totam placeat, excepturi maiores aspernatur quasi amet repellat doloremque voluptate laudantium inventore nisi at et?
-                    Incidunt, sequi illum atque numquam fuga sapiente corrupti obcaecati blanditiis, maxime vero fugit aspernatur a dolores quisquam expedita cum odit? Dicta voluptatem beatae minus autem pariatur delectus esse quam libero.</p>
-                    <h2>Carte de répartition</h2>
-                    <div class="image">
-                        <img src="images/exemple_map.png" alt="exemple">
+                    <div>
+                        <h2>Information</h2>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus illum saepe commodi placeat excepturi sed ab repellendus ex maiores iure totam facilis asperiores dolores alias, porro iste impedit tempore facere.
+                            Obcaecati nulla aut iusto voluptas quia, maiores nisi assumenda fuga labore consectetur neque blanditiis laudantium consequatur. Est iure vitae odit iste amet earum voluptates veniam quis praesentium animi, sint blanditiis.
+                        </p>
                     </div>
+                    <div>
+                        <h2>Identification</h2>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus illum saepe commodi placeat excepturi sed ab repellendus ex maiores iure totam facilis asperiores dolores alias, porro iste impedit tempore facere.
+                        </p>
+                    </div>
+                    <div>
+                        <h2>Carte de répartition</h2>
+                        <div class="image">
+                            <img src="images/exemple_map.png" alt="exemple">
+                        </div>
+                    </div>
+                    
                 </div>
             </div>
             <div class="conteneur_images">
                 <h2>Images</h2>
                 <div class="image">
                     <img src="images/BRG_Alnus_incana_rugosa.gif" alt="exemple">
+                    <img src="images/exemple_map2.png" alt="exemple">
                 </div>
             </div>
         </main>
         <script src="js/header.js"></script>
+        <script src="js/visionneur.js"></script>
     </body>
 </html>

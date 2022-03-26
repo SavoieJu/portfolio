@@ -68,6 +68,10 @@ nav {
     nav {
         justify-content: center;
         align-items: flex-end;
+        height: 59px;
+        border-right: none;
+        border-bottom: solid 1px $vertAccent;
+        display: none;
         .titre_table {
             
             h3 {

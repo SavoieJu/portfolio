@@ -1,6 +1,16 @@
 main {
     background-color: $fauxBlanc;
 
+    img {
+        cursor: pointer;
+        transition: box-shadow 0.4s 0.2s;
+        
+        &:hover {
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            // border-radius: 20px;
+        }
+    }
+
     .conteneur_information {
         background-color: $blanc;
         border: $vertAccent 1px solid;

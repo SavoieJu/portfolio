@@ -1,0 +1,48 @@
+.visionneur {
+    background-color: $vertTransparent;
+
+    .visionneur_fermer {
+        background-color: $blanc;
+        cursor: pointer;
+    }
+
+    .visionneur_controles {
+
+        .visionneur_controles_control_precedant {
+            background-color: $blanc;
+            cursor: pointer;
+        }
+
+        .visionneur_controles_control_suivant {
+            background-color: $blanc;
+            cursor: pointer;
+        }
+    }
+
+    .visionneur_images {
+
+        .visionneur_images_conteneur_image {
+            // background-image: url('../../images/exemple_map.png');
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+    }
+
+    .visionneur_images_info {
+        background-color: $blanc;
+    }
+}
+
+@media screen and (max-width: 864px) {
+    .visionneur {
+
+        .visionneur_images {
+
+        }
+    
+        .visionneur_images_info {
+            
+        }
+    }
+}
