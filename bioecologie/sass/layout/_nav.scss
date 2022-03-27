@@ -64,7 +64,7 @@ nav {
     }
 }
 
-@media screen and (max-width: 864px) {
+@media screen and (max-width: $mobileLayout) {
     nav {
         justify-content: center;
         align-items: flex-end;

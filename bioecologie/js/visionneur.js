@@ -12,7 +12,6 @@ function loadede() {
 
 function selectionnerImages() {
     images = Array.from(document.querySelectorAll("main img"));
-    console.log(images);
     ajoutEventSurImages(); 
 }
 

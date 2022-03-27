@@ -1,0 +1,21 @@
+.crumbs {
+    font-size: 0.8em;
+    font-style: italic;
+    font-weight: 300;
+
+    .crumb {
+        &:hover {
+            text-decoration: underline;
+            cursor: pointer;
+        }
+    }
+
+    .arrow {
+        user-select: none;
+    }
+
+    :last-child:hover {
+        cursor: text;
+        text-decoration: none;
+    }
+}

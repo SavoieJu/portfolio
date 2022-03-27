@@ -13,10 +13,16 @@
     </head>
     <body class="">
         <div class="visionneur hidden">
-            <div class="visionneur_fermer" onclick="toggleVisionneur()"></div>
+            <div class="visionneur_fermer" onclick="toggleVisionneur()">
+                <i class="fa-solid fa-xmark"></i>
+            </div>
             <div class="visionneur_controles">
-                <div class="visionneur_controles_control_precedant" onclick="precedant()"></div>
-                <div class="visionneur_controles_control_suivant" onclick="suivant()"></div>
+                <div class="visionneur_controles_control_precedant" onclick="precedant()">
+                    <i class="fa-solid fa-angle-left"></i>
+                </div>
+                <div class="visionneur_controles_control_suivant" onclick="suivant()">
+                    <i class="fa-solid fa-angle-right"></i>
+                </div>
             </div>
             <div class="visionneur_images">
                 <div class="visionneur_images_conteneur">
@@ -97,59 +103,168 @@
             </details>
         </nav>
         <main>
-            <div class="conteneur_information">
-                <div class="crumbs">
-                    <span class="crumb">Plantae</span>
-                    <span class="arrow"> > </span>
-                    <span class="crumb">Tracheophytae</span>
-                    <span class="arrow"> > </span>
-                    <span class="crumb">Magnolopsidae</span>
-                    <span class="arrow"> > </span>
-                    <span class="crumb">Fagales</span>
-                    <span class="arrow"> > </span>
-                    <span class="crumb">Betulacea</span>
-                    <span class="arrow"> > </span>
-                    <span class="crumb">Alnus</span>
-                    <span class="arrow"> > </span>
-                    <span class="crumb">Alnus incana</span>
-                </div>
-                <div class="nom_page">
-                    <h1>Aulne rugeux</h1>
-                    <h2>Alnus incana ssp. rugosa</h2>
-                    <h3>Speckled alder</h3>
-                </div>
-                <div class="info">
-                    <div>
-                        <h2>Information</h2>
-                        <p>
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus illum saepe commodi placeat excepturi sed ab repellendus ex maiores iure totam facilis asperiores dolores alias, porro iste impedit tempore facere.
-                            Obcaecati nulla aut iusto voluptas quia, maiores nisi assumenda fuga labore consectetur neque blanditiis laudantium consequatur. Est iure vitae odit iste amet earum voluptates veniam quis praesentium animi, sint blanditiis.
-                        </p>
+            <div class="modele_espece hidden">
+                <div class="conteneur_information">
+                    <div class="crumbs">
+                        <span class="crumb">Plantae</span>
+                        <span class="arrow"> > </span>
+                        <span class="crumb">Tracheophytae</span>
+                        <span class="arrow"> > </span>
+                        <span class="crumb">Magnolopsidae</span>
+                        <span class="arrow"> > </span>
+                        <span class="crumb">Fagales</span>
+                        <span class="arrow"> > </span>
+                        <span class="crumb">Betulacea</span>
+                        <span class="arrow"> > </span>
+                        <span class="crumb">Alnus</span>
+                        <span class="arrow"> > </span>
+                        <span class="crumb">Alnus incana</span>
                     </div>
-                    <div>
-                        <h2>Identification</h2>
-                        <p>
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus illum saepe commodi placeat excepturi sed ab repellendus ex maiores iure totam facilis asperiores dolores alias, porro iste impedit tempore facere.
-                        </p>
+                    <div class="nom_page">
+                        <h1 class="nom_fr">Aulne rugeux</h1>
+                        <h2 class="nom_la">Alnus incana ssp. rugosa</h2>
+                        <h3 class="nom_en">Speckled alder</h3>
                     </div>
-                    <div>
-                        <h2>Carte de répartition</h2>
-                        <div class="image">
-                            <img src="images/exemple_map.png" alt="exemple">
+                    <div class="info">
+                        <div>
+                            <h2>Information</h2>
+                            <p>
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus illum saepe commodi placeat excepturi sed ab repellendus ex maiores iure totam facilis asperiores dolores alias, porro iste impedit tempore facere.
+                                Obcaecati nulla aut iusto voluptas quia, maiores nisi assumenda fuga labore consectetur neque blanditiis laudantium consequatur. Est iure vitae odit iste amet earum voluptates veniam quis praesentium animi, sint blanditiis.
+                            </p>
                         </div>
+                        <div>
+                            <h2>Identification</h2>
+                            <p>
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus illum saepe commodi placeat excepturi sed ab repellendus ex maiores iure totam facilis asperiores dolores alias, porro iste impedit tempore facere.
+                            </p>
+                        </div>
+                        <div class="info_large">
+                            <h2>Identification</h2>
+                            <p>
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus illum saepe commodi placeat excepturi sed ab repellendus ex maiores iure totam facilis asperiores dolores alias, porro iste impedit tempore facere.
+                            </p>
+                        </div>
+                        <div>
+                            <h2>Identification</h2>
+                            <p>
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus illum saepe commodi placeat excepturi sed ab repellendus ex maiores iure totam facilis asperiores dolores alias, porro iste impedit tempore facere.
+                            </p>
+                        </div>
+                        <div>
+                            <h2>Identification</h2>
+                            <p>
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus illum saepe commodi placeat excepturi sed ab repellendus ex maiores iure totam facilis asperiores dolores alias, porro iste impedit tempore facere.
+                            </p>
+                        </div>
+                        <div class="info_large">
+                            <h2>Carte de répartition</h2>
+                            <div class="image">
+                                <img src="images/exemple_map.png" alt="exemple">
+                            </div>
+                        </div>
+                        
                     </div>
-                    
+                </div>
+                <div class="conteneur_images">
+                    <h2>Images</h2>
+                    <div class="image">
+                        <img src="images/BRG_Alnus_incana_rugosa.gif" alt="exemple">
+                        <img src="images/exemple_map2.png" alt="exemple">
+                    </div>
                 </div>
             </div>
-            <div class="conteneur_images">
-                <h2>Images</h2>
-                <div class="image">
-                    <img src="images/BRG_Alnus_incana_rugosa.gif" alt="exemple">
-                    <img src="images/exemple_map2.png" alt="exemple">
+            <div class="taxonomie">
+                <div class="conteneur_info">
+                    <div class="crumbs">
+                        <span class="crumb">Plante</span>
+                        <span class="arrow"> > </span>
+                        <span class="crumb">Trachéophytes</span>
+                        <span class="arrow"> > </span>
+                        <span class="crumb">Magnoliopsida</span>
+                        <span class="arrow"> > </span>
+                        <span class="crumb">Fagales</span>
+                    </div>
+                    <div class="nom_page">
+                        <h1 class="nom_fr">Taxon</h1>
+                        <h2 class="nom_la">Taxon Latin</h2>
+                        <h3 class="nom_en">Taxon anglais</h3>
+                    </div>
+                    <div class="info">
+                        <div>
+                            <h2>Information</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit quisquam eligendi natus sunt recusandae cum aperiam provident dolorem quibusdam necessitatibus in labore eaque incidunt, id nesciunt mollitia perspiciatis voluptates ipsum.</p>
+                        </div>
+                        <div>
+                            <h2>Caractéristiques</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit quisquam eligendi natus sunt recusandae.</p>
+                        </div>
+                    </div>
+                    <div class="branches">
+                        <h2>Branches of Fagales</h2>
+                        <div>
+                            <h3>Niveau taxonomique</h3>
+                            <h3>Nombre de taxon</h3>
+                        </div>
+                        <ul>
+                            <li>
+                                <h3>Suborder</h3>
+                                <h3>207</h3>
+                            </li>
+                            <li>
+                                <h3>Infraorder</h3>
+                                <h3>73</h3>
+                            </li>
+                            <li>
+                                <h3>Section</h3>
+                                <h3>3</h3>
+                            </li>
+                            <li>
+                                <h3>Subsection</h3>
+                                <h3>1</h3>
+                            </li>
+                            <li>
+                                <h3>Superfamily</h3>
+                                <h3>252</h3>
+                            </li>
+                            <li>
+                                <h3>Family</h3>
+                                <h3>1583</h3>
+                            </li>
+                            <li>
+                                <h3>Subfamily</h3>
+                                <h3>786</h3>
+                            </li>
+                            <li>
+                                <h3>Tribe</h3>
+                                <h3>622</h3>
+                            </li>
+                            <li>
+                                <h3>Subtribe</h3>
+                                <h3>81</h3>
+                            </li>
+                            <li>
+                                <h3>Genus</h3>
+                                <h3>5610</h3>
+                            </li>
+                            <li>
+                                <h3>Subgenus</h3>
+                                <h3>323</h3>
+                            </li>
+                            <li>
+                                <h3>Species</h3>
+                                <h3>12463</h3>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="resultat_choix_taxon">
+                        <h2>"Choix" descendant de "Taxon"</h2>
+                    </div>
                 </div>
             </div>
         </main>
         <script src="js/header.js"></script>
         <script src="js/visionneur.js"></script>
+        <script src="js/taxonomie.js"></script>
     </body>
 </html>

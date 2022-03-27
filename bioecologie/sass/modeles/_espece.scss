@@ -1,0 +1,56 @@
+.modele_espece {
+    display: grid;
+    grid-template-columns: 5fr 2fr;
+
+    img {
+        margin: 10px 0;
+    }
+
+    .conteneur_information {
+        @include conteneurDansMain();
+
+        .nom_page {
+            @include titre-espece;
+        }
+
+        @include information();
+    }
+
+    .conteneur_images {
+        @include conteneurDansMain();
+
+        h2 {
+            @include sous-titre;
+        }
+
+        .image {
+            margin: 10px 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            img {
+                max-height: 250px;
+                max-width: 100%;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: $mobileLayout) {
+    .modele_arbre {
+        grid-template-columns: 1fr;
+        box-sizing: border-box;
+        width: 100%;
+        padding: 10px 5px;
+
+        .conteneur_information {
+            margin: 0 0 2.5px 0;
+            box-sizing: border-box;
+        }
+
+        .conteneur_images {
+            margin: 2.5px 0 0 0;
+            box-sizing: border-box;
+        }
+    }   
+}

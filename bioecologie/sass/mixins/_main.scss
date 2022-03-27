@@ -1,0 +1,61 @@
+@mixin sous-titre {
+    margin: 0 0 10px 0;
+    border-bottom: solid 2px black;
+  }
+
+  @mixin titre-espece {
+    .nom_fr {
+        font-size: 2em;
+        margin: 5px 0;
+        font-weight: 700;
+    }
+
+    .nom_la {
+        font-size: 1.3em;
+        margin: 0;
+        font-style: italic;
+        font-weight: 300;
+    }
+
+    .nom_en {
+        font-size: 1.1em;
+        margin: 0;
+        font-weight: 300;
+        margin-bottom: 40px;
+    }
+}
+
+@mixin conteneurDansMain() {
+    margin: 10px;
+    padding: 20px;
+    background-color: $blanc;
+    border: $vertAccent 1px solid;
+}
+
+@mixin information() {
+    .info {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px 10px;
+
+        h2 {
+            @include sous-titre;
+        }
+
+        .info_large {
+            grid-column: span 2;
+        }
+
+        .image {
+            margin: 0;
+            img {
+                width: 100%;
+            }
+        }
+
+        p {
+            font-size: 1.0em;
+            margin: 0 0 0 0;
+        }
+    }
+}

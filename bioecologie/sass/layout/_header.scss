@@ -43,11 +43,12 @@ header {
 
         h3 {
             cursor: pointer;
+            margin: 0;
         }
     }
 }
 
-@media screen and (max-width: 864px) {
+@media screen and (max-width: $mobileLayout) {
     header {
         z-index: 1;
         align-items: inherit;

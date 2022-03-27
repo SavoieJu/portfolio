@@ -11,18 +11,18 @@ body {
                         'header header'
                         'nav main';
     grid-template-columns: 1fr 4fr;
-    grid-template-rows: 1fr 10fr;
+    grid-template-rows: 60px 1fr;
 }
 
 .no_scroll {
-    overflow-y: hidden;
+    overflow-y: hidden !important;
 }
 
 .hidden {
-    display: none;
+    display: none !important;
 }
 
-@media screen and (max-width: 864px) {
+@media screen and (max-width: $mobileLayout) {
     body {
         grid-template-areas: 
                         'header'

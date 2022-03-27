@@ -1,0 +1,61 @@
+.visionneur {
+    background-color: $vertTransparent;
+
+    .visionneur_fermer {
+        cursor: pointer;
+
+        i {
+            color: $blanc;
+
+            &:hover {
+                color: $vertAccent;
+            }
+        }
+    }
+
+    .visionneur_controles {
+
+        .visionneur_controles_control_precedant {
+            cursor: pointer;
+        }
+
+        .visionneur_controles_control_suivant {
+            cursor: pointer;
+        }
+
+        i {
+            color: $blanc;
+
+            &:hover {
+                color: $vertAccent;
+            }
+        }
+    }
+
+    .visionneur_images {
+
+        .visionneur_images_conteneur_image {
+            // background-image: url('../../images/exemple_map.png');
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+    }
+
+    .visionneur_images_info {
+        background-color: $vertAccent;
+    }
+}
+
+@media screen and (max-width: $mobileLayout) {
+    .visionneur {
+
+        .visionneur_images {
+
+        }
+    
+        .visionneur_images_info {
+            
+        }
+    }
+}

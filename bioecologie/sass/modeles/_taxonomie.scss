@@ -1,0 +1,90 @@
+.taxonomie {
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 100%;
+
+    .conteneur_info {
+        
+        .info {
+            margin-bottom: 20px;
+        }
+
+        @include conteneurDansMain();
+
+        .nom_page {
+            @include titre-espece;
+        }
+
+        @include information();
+
+        .branches {
+            
+            h2 {
+                @include sous-titre;
+            }
+
+            div {
+                margin-top: 20px;
+                display: flex;
+                justify-content: space-between;
+
+                h3 {
+                    margin: 0;
+                    font-weight: 700;
+                    font-size: 1.1em;
+                }
+            }
+
+            ul {
+                list-style-type: none;
+                padding: 0;
+                margin: 10px 0;
+
+                li {
+                    display: flex;
+                    justify-content: space-between;
+                    border-top: solid 1px $vertAccent;
+                    cursor: pointer;
+
+                    &:nth-child(odd) {
+                        background-color: rgba($color: $vertAccent, $alpha: 0.10);
+                    }
+
+                    &:last-child {
+                        border-bottom: solid 1px $vertAccent;
+                    }
+                    
+                    &:hover {
+                        background-color: rgba($color: $vertAccent, $alpha: 0.40);
+                        text-decoration: underline;
+                    }
+
+                    h3 {
+                        font-weight: 400;
+                        font-size: 1.0em;
+                        margin: 10px 0;
+                    }
+                }
+            }
+        }
+
+        .resultat_choix_taxon {
+            h2 {
+                @include sous-titre;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: $mobileLayout) {
+    .taxon {
+        grid-template-columns: 1fr;
+        box-sizing: border-box;
+        width: 100%;
+        padding: 10px 5px;
+    }
+
+    .info {
+        grid-template-columns: 1fr !important;
+    }
+}
