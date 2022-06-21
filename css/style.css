@@ -551,6 +551,9 @@ section.accueil {
   z-index: -100000;
   pointer-events: none;
   width: 100vw;
+  background-image: url(../images/Tilt_Shift_Map.jpg);
+  background-size: 100%;
+  background-position: center;
 }
 
 section.accueil h2 {
@@ -562,7 +565,9 @@ section.accueil h2 {
 @media screen and (max-width: 800px) {
   section.accueil {
     padding: 0 20px;
-    margin-top: -100px;
+    margin-top: -150px;
+    background-repeat: no-repeat;
+    background-size: auto;
   }
   section.accueil h2 {
     color: #070707;
@@ -682,6 +687,7 @@ section.accueil h2 {
   padding: 10px;
   margin: 10px 0;
   border: #070707 solid 1px;
+  background-color: white;
 }
 
 .projets .projets_liste_projet a:hover {
