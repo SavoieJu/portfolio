@@ -87,5 +87,14 @@
         </section>
     </main>
     <script src="js/main.js"></script>
+    <script>
+        function httpGet(theUrl) {
+        let xmlHttpReq = new XMLHttpRequest();
+        xmlHttpReq.open("GET", theUrl, false); 
+        xmlHttpReq.send(null);
+        return xmlHttpReq.responseText;
+        }
+        console.log(httpGet('https://api.inaturalist.org/v1/observations/'));
+    </script>
 </body>
 </html>
