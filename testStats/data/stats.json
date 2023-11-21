@@ -1,0 +1,347 @@
+{
+    "0" : {
+        "final" : false,
+        "note" : false,
+        "question" : "Mes variables dépendantes sont...",
+        "choix" :  [
+            "Qualitatives",
+            "Quantitative"
+        ],
+        "id_choix" : [
+            "1",
+            "2"
+        ],
+        "resultat" : "",
+        "note_txt" : ""
+    },
+    "1" : {
+        "final" : false,
+        "note" : false,
+        "question" : "Les fréquences théoriques sont-elles ≥ 5 dans 75% des cellules, et sont-elles toutes ≥ 1?",
+        "choix" :  [
+            "Oui",
+            "Non"
+        ],
+        "id_choix" : [
+            "3",
+            "4"
+        ],
+        "resultat" : "",
+        "note_txt" : ""
+    },
+    "2" : {
+        "final" : false,
+        "note" : false,
+        "question" : "Je souhaite…",
+        "choix" :  [
+            "Comparer des moyennes",
+            "Mettre en relations 2 variables"
+        ],
+        "id_choix" : [
+            "5",
+            "6"
+        ],
+        "resultat" : "",
+        "note_txt" : ""
+    },
+    "3" : {
+        "final" : false,
+        "note" : false,
+        "question" : "Ai-je une ou deux variables qualitatives à tester?",
+        "choix" :  [
+            "Une",
+            "Deux"
+        ],
+        "id_choix" : [
+            "7",
+            "8"
+        ],
+        "resultat" : "",
+        "note_txt" : ""
+    },
+    "4" : {
+        "final" : true,
+        "note" : false,
+        "question" : "Test exact de Fisher",
+        "choix" :  [],
+        "id_choix" : [],
+        "resultat" : "Cas #3",
+        "note_txt" : ""
+    },
+    "5" : {
+        "final" : false,
+        "note" : false,
+        "question" : "Ai-je plus de 2 moyennes à comparer?",
+        "choix" :  [
+            "Non",
+            "Oui"
+        ],
+        "id_choix" : [
+            "9",
+            "10"
+        ],
+        "resultat" : "",
+        "note_txt" : ""
+    },
+    "6" : {
+        "final" : false,
+        "note" : false,
+        "question" : "Y a-t-il une relation de cause à effet entre les variables?",
+        "choix" :  [
+            "Non",
+            "Oui"
+        ],
+        "id_choix" : [
+            "11",
+            "12"
+        ],
+        "resultat" : "",
+        "note_txt" : ""
+    },
+    "7" : {
+        "final" : true,
+        "note" : false,
+        "question" : "Test d’ajustement du khi-deux",
+        "choix" :  [],
+        "id_choix" : [],
+        "resultat" : "Cas #1",
+        "note_txt" : ""
+    },
+    "8" : {
+        "final" : true,
+        "note" : false,
+        "question" : "Khi-deux",
+        "choix" :  [],
+        "id_choix" : [],
+        "resultat" : "Cas #2",
+        "note_txt" : ""
+    },
+    "9" : {
+        "final" : false,
+        "note" : true,
+        "question" : "Mes données sont-elles distribuées normalement?",
+        "choix" :  [
+            "Oui",
+            "Non"
+        ],
+        "id_choix" : [
+            "13",
+            "14"
+        ],
+        "resultat" : "",
+        "note_txt" : "Pour vérifier si les données ou les résidus sont distribués normalement : test de Shapiro-Wilk. Si elles ne sont pas distribuées normalement, il faut tenter de les transformer avant d’envisager un autre test."
+    },
+    "10" : {
+        "final" : false,
+        "note" : true,
+        "question" : "Mes variances sont-elles égales?",
+        "choix" :  [
+            "Non",
+            "Oui"
+        ],
+        "id_choix" : [
+            "15",
+            "16"
+        ],
+        "resultat" : "",
+        "note_txt" : "Pour vérifier si plus de deux variances sont égales : test de Levene"
+    },
+    "11" : {
+        "final" : false,
+        "note" : true,
+        "question" : "Est-ce que mes données sont distribuées normalement, que n ≥ 3 et que la relation entre les deux variables est linéaire?",
+        "choix" :  [
+            "Oui",
+            "Non"
+        ],
+        "id_choix" : [
+            "17",
+            "18"
+        ],
+        "resultat" : "",
+        "note_txt" : "Pour vérifier si les données ou les résidus sont distribués normalement : test de Shapiro-Wilk. Si elles ne sont pas distribuées normalement, il faut tenter de les transformer avant d’envisager un autre test."
+    },
+    "12" : {
+        "final" : false,
+        "note" : false,
+        "question" : "Y a-t-il une seule variable indépendante?",
+        "choix" :  [
+            "Oui",
+            "Non"
+        ],
+        "id_choix" : [
+            "19",
+            "20"
+        ],
+        "resultat" : "",
+        "note_txt" : ""
+    },
+    "13" : {
+        "final" : false,
+        "note" : true,
+        "question" : "Mes variances sont-elles égales?",
+        "choix" :  [
+            "Non",
+            "Oui"
+        ],
+        "id_choix" : [
+            "21",
+            "22"
+        ],
+        "resultat" : "",
+        "note_txt" : "Pour vérifier si deux variances sont égales : test de Fischer"
+    },
+    "14" : {
+        "final" : true,
+        "note" : true,
+        "question" : "Wilcoxon Mann-Withney",
+        "choix" :  [],
+        "id_choix" : [],
+        "resultat" : "Cas #6",
+        "note_txt" : "Attention de choisir les tests appariés si vous prenez vos données sur les mêmes unités statistiques!"
+    },
+    "15" : {
+        "final" : false,
+        "note" : true,
+        "question" : "Mes données sont-elles distribuées normalement?",
+        "choix" :  [
+            "Non",
+            "Oui"
+        ],
+        "id_choix" : [
+            "23",
+            "24"
+        ],
+        "resultat" : "",
+        "note_txt" : "Pour vérifier si les données ou les résidus sont distribués normalement : test de Shapiro-Wilk. Si elles ne sont pas distribuées normalement, il faut tenter de les transformer avant d’envisager un autre test."
+    },
+    "16" : {
+        "final" : false,
+        "note" : false,
+        "question" : "J'ai combien de variables indépendantes?",
+        "choix" :  [
+            "J’ai une seule variable indépendante",
+            "J’ai deux ou trois variables indépendantes"
+        ],
+        "id_choix" : [
+            "25",
+            "26"
+        ],
+        "resultat" : "",
+        "note_txt" : ""
+    },
+    "17" : {
+        "final" : true,
+        "note" : false,
+        "question" : "Coefficient de Pearson",
+        "choix" :  [],
+        "id_choix" : [],
+        "resultat" : "Cas #11",
+        "note_txt" : ""
+    },
+    "18" : {
+        "final" : true,
+        "note" : false,
+        "question" : "Coefficient de Kendall",
+        "choix" :  [],
+        "id_choix" : [],
+        "resultat" : "Cas #12",
+        "note_txt" : ""
+    },
+    "19" : {
+        "final" : false,
+        "note" : false,
+        "question" : "La relation entre les variables est-elle linéaire?",
+        "choix" :  [
+            "Oui",
+            "Non"
+        ],
+        "id_choix" : [
+            "27",
+            "28"
+        ],
+        "resultat" : "",
+        "note_txt" : ""
+    },
+    "20" : {
+        "final" : true,
+        "note" : false,
+        "question" : "Régression linéaire multiple",
+        "choix" :  [],
+        "id_choix" : [],
+        "resultat" : "Cas #14",
+        "note_txt" : ""
+    },
+    "21" : {
+        "final" : true,
+        "note" : false,
+        "question" : "Test de Welch",
+        "choix" :  [],
+        "id_choix" : [],
+        "resultat" : "Cas #5",
+        "note_txt" : ""
+    },
+    "22" : {
+        "final" : true,
+        "note" : true,
+        "question" : "Test de Student",
+        "choix" :  [],
+        "id_choix" : [],
+        "resultat" : "Cas #4",
+        "note_txt" : "Attention de choisir les tests appariés si vous prenez vos données sur les mêmes unités statistiques!"
+    },
+    "23" : {
+        "final" : true,
+        "note" : false,
+        "question" : "Kruskal – Wallis",
+        "choix" :  [],
+        "id_choix" : [],
+        "resultat" : "Cas #7",
+        "note_txt" : ""
+    },
+    "24" : {
+        "final" : true,
+        "note" : false,
+        "question" : "Analyse de variance à 1 facteur de Welch",
+        "choix" :  [],
+        "id_choix" : [],
+        "resultat" : "Cas #9",
+        "note_txt" : ""
+    },
+    "25" : {
+        "final" : true,
+        "note" : true,
+        "question" : "ANOVA à un critère de classification",
+        "choix" :  [],
+        "id_choix" : [],
+        "resultat" : "Cas #8",
+        "note_txt" : "Si les résidus ne sont pas distribués normalement, fait un test de Kruskal – Wallis, Cas #7"
+    },
+    "26" : {
+        "final" : true,
+        "note" : true,
+        "question" : "ANOVA à deux critères de classification",
+        "choix" :  [],
+        "id_choix" : [],
+        "resultat" : "Cas #10",
+        "note_txt" : "Si les résidus ne sont pas distribués normalement, fait un test de Kruskal – Wallis, Cas #7"
+    },
+    "27" : {
+        "final" : true,
+        "note" : true,
+        "question" : "Régression linéaire simple",
+        "choix" :  [],
+        "id_choix" : [],
+        "resultat" : "Cas #13",
+        "note_txt" : "Attention de vérifier si les conditions d’application sont respectées!"
+    },
+    "28" : {
+        "final" : true,
+        "note" : true,
+        "question" : "Régression polynomiale",
+        "choix" :  [],
+        "id_choix" : [],
+        "resultat" : "Cas #15",
+        "note_txt" : "Attention de vérifier si les conditions d’application sont respectées!"
+    }
+}

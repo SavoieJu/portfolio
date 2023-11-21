@@ -1,0 +1,105 @@
+body {
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+    font-family: 'Open Sans', sans-serif;
+
+    .material-symbols-outlined {
+        font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24
+      }
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-weight: 400;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+
+    div {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        width: 75%;
+        height: 60%;
+    
+        .question {
+            height: 30%;
+            font-weight: 700;
+        }
+    
+        .options {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            width: 70%;
+            height: 15vh;
+    
+            .option {
+                width: 100%;
+                text-align: center;
+                cursor: pointer;
+                padding: 20px;
+                background-color: black;
+                color: white;
+                width: 40%;
+                font-size: 20px;
+
+                &:hover {
+                    background-color: #444444;
+                }
+            }
+        }
+    
+        .resultats {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            width: 50%;
+            height: 15vh;
+        }
+    
+        .resultats {
+            .resulat {
+    
+            }
+        }
+    
+        .note {
+        }
+    }
+
+    .retour {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 20%;
+        height: 50px;
+        font-weight: 700;
+        text-align: center;
+        cursor: pointer;
+
+        span {
+            
+        }
+    }
+}
+
+
+
+.cacher {
+    display: none !important;
+}
+
+
+
+
