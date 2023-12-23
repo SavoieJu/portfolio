@@ -1,0 +1,272 @@
+@font-face {
+    font-family: christmas;
+    src: url(/font/HomeChristmas.otf);
+}
+
+body {
+    background-color: #f2e8cf;
+    width: 100vw;
+    height: 100vh;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    .options {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+
+        .option {
+            font-family: 'Preahvihear', sans-serif;
+            font-size: 1.3em;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-grow: 1;
+            max-width: 25%;
+            text-align: center;
+            // margin: 0px 50px;
+            padding: 0px 10px;
+            background-color: #6a994e;
+            height: 100px;
+            color: white;
+            border: #a7c957 4px outset;
+            user-select: none;
+
+            &:hover {
+                cursor: pointer;
+                background-color: #a7c957;
+                border: #a7c957 4px inset;
+            }
+        }
+    }
+
+    .principale {
+        display: flex;
+        background-color: #6a994e;
+        width: 94%;
+        height: 70%;
+        box-sizing: border-box;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        .vide {
+
+            font-family: christmas;
+            font-size: 3em;
+            color: white;
+        }
+
+        .charades {
+            height: 100%;
+            width: 80%;
+            font-family: 'Preahvihear', sans-serif;
+            color: white;
+            font-size: 1.2em;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+
+            p:first-child {
+                margin: 10px 0 0 0;
+            }
+
+            input {
+                width: 75%;
+                height: 40px;
+                font-size: 1.2em;
+                text-align: center;
+            }
+
+            div {
+                width: 75%;
+                margin: 15px;
+                display: flex;
+                justify-content: space-around;
+            }
+        }
+    }
+}
+
+.hidden {
+    display: none !important;
+}
+
+div .locked {
+    background-color: gray;
+    border: none;
+    cursor: not-allowed !important;
+
+    &:hover {
+        background-color: gray;
+        border: none;
+    }
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+}
+
+.option {
+    font-family: 'Preahvihear', sans-serif;
+    font-size: 1.3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    max-width: 35%;
+    text-align: center;
+    padding: 0px 10px;
+    background-color: #6a994e;
+    height: 100px;
+    color: white;
+    border: #a7c957 4px outset;
+    user-select: none;
+
+    &:hover {
+        cursor: pointer;
+        background-color: #a7c957;
+        border: #a7c957 4px inset;
+    }
+}
+
+.code_final {
+    background-color: #76726f;
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    justify-content: space-around;
+    align-items: center;
+    width: 400px;
+    margin: 10px 0;
+    border-radius: 10px;
+
+    input[type=text] {
+        font-family: 'Silkscreen', sans-serif;
+        outline: none;
+        width: 93%;
+        height: 75px;
+        font-size: 3em;
+        text-align: right;
+        background: #ddd5cb;
+        color: #bc4749;
+        user-select: none;
+    }
+
+    .numpad {
+        margin: 10px 0;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        height: max-content;
+        justify-items: center;
+        gap: 10px;
+        
+        div {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 3em;
+            font-family: 'Silkscreen', sans-serif;
+            font-weight: 700;
+            color: white;
+            background-color: #bc4749;
+            width: 100px;
+            height: 75px;
+            user-select: none;
+            
+            &:hover {
+                cursor: pointer;
+                background-color: #751717;
+            }
+
+            span {
+                font-size: 1.5em;
+                color: white;
+            }
+        }
+    }
+}
+
+.emplacement_final {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    > h1 {
+        font-family: christmas;
+        font-size: 2em;
+        color: white;
+    }
+
+    > p {
+        font-family: 'Preahvihear', sans-serif;
+        font-size: 1.3em;
+        color: white;
+    }
+
+    .btn_empla_final {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+    }
+}
+
+.btn_aide_generale {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-right: 5vw;
+    padding: 25px;
+    background-color: #bc4749;
+    cursor: pointer;
+    font-family: 'Preahvihear', sans-serif;
+    color: white;
+    font-size: 2.5em;
+    user-select: none;
+}
+
+.popup {
+    position: fixed;
+    background-color: #386641;
+    border: 25px solid #751717;
+    width: 70%;
+    height: 70%;
+    top: 40px;
+    color: white;
+    padding: 40px;
+    font-family: 'Preahvihear', sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    > div {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            width: 300px;
+        }
+
+        .fermer_popup {
+            width: 35%;
+        }
+    }
+}

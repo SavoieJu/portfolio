@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super charade super cool pour un super noel</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link href="https://fonts.googleapis.com/css2?family=Preahvihear&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="btn_aide_generale">?</div>
+    <div class="popup aide_generale hidden">
+        <div>
+            <h1>Joyeux Noel!</h1>
+            <p>Le père noel à perdu un cadeaux dans les environ de la montagne du collège! Cependant, un lutin anti-capitalisme, en acte de rebéllion contre le père noel, à cacher le cadeau. La localisation du cadeaux est protégé par un code à deux partie.</p>
+            <h2>Charades</h2>
+            <p>Trouve le mot secret des deux charades afin d'avoir un indice de la localisation de la première et deuxième partie du code requis pour l'emplacement finale.</p>
+            <h2>Emplacement final</h2>
+            <p>Après avoir trouvé le code complet à 8 chiffres, l'emplacement final sera dévoilé.</p>
+            <div class="option fermer_popup">
+                <p>Fermer</p>
+            </div>
+        </div>
+    </div>
+    <div class="options">
+        <div class="option" id="charade-1">
+            <p><span class="emoji_noel_un"></span>Charade 1<span class="emoji_noel_un"></span></p>
+        </div>
+        <div class="option" id="charade-2">
+            <p><span class="emoji_noel_deux"></span>Charade 2<span class="emoji_noel_deux"></span></p>
+        </div>
+        <div class="option" id="defi-final">
+            <p><span class="emoji_noel_final"></span>Emplacement final!<span class="emoji_noel_final"></span></p>
+        </div>
+    </div>
+    <div class="principale">
+        <div class="vide">
+            <p>Choisi Un Des Challenges Pour Continuer</p>
+        </div>
+        <div class="popup popup_indice_un hidden">
+            <div>
+                <h1>Emplacement code #1</h1>
+                <p>Un corbeau sympathique fréquente ce lieu. À la base de l'arbre, se trouvera la première partie du code.</p>
+                <a href="/img/DSCN5023.jpg" target="_blank">
+                    <img src="/img/DSCN5023.jpg" alt="">
+                </a>
+                <div class="option fermer_popup">
+                    <p>Fermer</p>
+                </div>
+            </div>
+        </div>
+        <div class="charades premier hidden">
+            <p>Mon premier est le vaisseau dans lequel tu interagis avec la vie.</p>
+            <p>Mon deuxième est le symbole pour la latitude dans le système de coordonnées galactique.</p>
+            <p>Mon troisième est le symbole alchimique du triangle inversé.</p>
+            <p>Mon tout est parfois considéré comme porteur de malchance.</p>
+            <input type="text" id="charade-1-input" placeholder="Entre ta réponse ici">
+            <div>
+                <div class="option locked" id="indice-1">
+                    <p>Voir l'indice de l'emplacement</p>
+                </div>
+            </div>
+        </div>
+        <div class="popup popup_indice_deux hidden">
+            <div>
+                <h1>Emplacement code #2</h1>
+                <p>Pour trouver la partie #2 du code, une perspective d'écureuil roux pourrait bien être utile...</p>
+                <a href="/img/DSCN5019.jpg" target="_blank">
+                    <img src="/img/DSCN5019.jpg" alt="">
+                </a>
+                <div class="option fermer_popup">
+                    <p>Fermer</p>
+                </div>
+            </div>
+        </div>
+        <div class="charades deuxieme hidden">
+            <p>Mon premier est le nom de famille d'un fromager né le 28 juillet 1878 en France, créateur du fromage "Vache qui rit".</p>
+            <p>Mon deuxième est le plus jeune frère du dieu Odin.</p>
+            <p>Mon troisième contient de l'azote, de l'oxygène, de l'argon, du dioxyde de carbone, du néon, de l'hélium, du méthane, du krypton, de l'hydrogène, du xénon et de l'ozone. 😉</p>
+            <p>Mon tout est souvent en altitude.</p>
+            <input type="text" id="charade-2-input" placeholder="Entre ta réponse ici">
+            <div>
+                <div class="option locked" id="indice-2">
+                    <p>Voir l'indice de l'emplacement</p>
+                </div>
+            </div>
+        </div>
+        <div class="popup popup_indice_final hidden">
+            <div>
+                <h1>Emplacement final!</h1>
+                <p>Le cadeau se trouve à l'abris, dans une boîte un peu trop grosse.</p>
+                <a href="/img/DSCN5028.jpg" target="_blank">
+                    <img src="/img/DSCN5028.jpg" alt="">
+                </a>
+                <div class="option fermer_popup">
+                    <p>Fermer</p>
+                </div>
+            </div>
+        </div>
+        <div class="code_final troisieme hidden">
+            <input type="text" id="code_secret" readonly value="" max="99999999" placeholder="00000000">
+            <div class="numpad">
+                <div class="btn_numpad" data-valeur="1">1</div>
+                <div class="btn_numpad" data-valeur="2">2</div>
+                <div class="btn_numpad" data-valeur="3">3</div>
+                <div class="btn_numpad" data-valeur="4">4</div>
+                <div class="btn_numpad" data-valeur="5">5</div>
+                <div class="btn_numpad" data-valeur="6">6</div>
+                <div class="btn_numpad" data-valeur="7">7</div>
+                <div class="btn_numpad" data-valeur="8">8</div>
+                <div class="btn_numpad" data-valeur="9">9</div>
+                <div class="btn_numpad" data-valeur="back">
+                    <span class="material-symbols-outlined">backspace</span>
+                </div>
+                <div class="btn_numpad" data-valeur="0">0</div>
+                <div class="btn_numpad" data-valeur="ok">OK</div>
+            </div>
+        </div>
+        <div class="emplacement_final hidden">
+            <h1>Bravo! Tu As  Trouver Le Code Complet!</h1>
+            <p>L'emplacement du cadeau est maintenant disponible!</p>
+            <div class="btn_empla_final">
+                <div class="option" id="indice-3">
+                    <p>Voir l'indice de l'emplacement final!</p>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <script src="js/navigation.js"></script>
+    <script src="js/charades.js"></script>
+    <script src="js/numpad.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
