@@ -3,6 +3,8 @@ let charade_un_completer = "false";
 let charade_deux_completer = "false";
 let numpad_trouver = "false";
 
+let audio = new Audio('son/50-50.mp3');
+
 init();
 
 function init() {
@@ -129,4 +131,10 @@ function init_btn_indices() {
             popup_indice_final.classList.toggle("hidden");
         }
     });
+}
+
+
+
+function jouerSon() {
+    audio.play();
 }

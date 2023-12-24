@@ -320,7 +320,33 @@ template {
 
 @font-face {
   font-family: christmas;
-  src: url(/font/HomeChristmas.otf);
+  src: url(/joyeux/font/HomeChristmas.otf);
+}
+.fifty {
+  background-clip: text;
+  background: url("https://vivaldi.com/wp-content/uploads/colors-1024x656.png");
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: text 3s linear infinite;
+  font-weight: bolder;
+  cursor: pointer;
+  text-decoration: underline;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  font-size: 2em;
+}
+
+@keyframes text {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 100%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 body {
   background-color: #f2e8cf;
